@@ -13,7 +13,12 @@
   },
   "about_me":{
     "about_me": "About Me",
-    "des": "Coding always keeps me on the edge of my seat or should I say I caught fire coding and since then I am on fire.After coming off the school with flying colors, I always thought my dream was to be a private tutor. It seemed more appropriate after I topped my school in 12th Standard. To make my dream come true, I started my coaching business but felt humdrum.The craving to do something different sparked the fire off after I created a small game with the help of a C++ tutorial.Since then I am on fire. Thanks to my creativity, problem solving and quickly learning new languages skills, I now have programming languages like C++, Java, Python, Typescript, Javascript, CSS, HTML, C#, Bash, Perl, curl, SQL and frameworks like Qt, Angular, Django, Flask, ASP.Net etc under my belt.I still have fervent desire to learn new programming languages and am enthusiastically learning new fameworks and principles.I like applying my experience,learned principles and patterns to multiple projects and thereby, making life of my team mates easier. It is immensely satisfying and brings genuine joy to my heart.To summarize, I am grown into the kind of software that is moldable but still keep its creative flare intact."
+    "des1": "Coding always keeps me on the edge of my seat or should I say I caught fire coding and since then I am on fire.",
+    "des2": "After coming off the school with flying colors, I always thought my dream was to be a private tutor. It seemed more appropriate after I topped my school in 12th Standard. To make my dream come true, I started my coaching business but felt humdrum.",
+    "des3": "And then, one fine day the craving to do something different sparked the fire off after I created a small game with the help of a C++ tutorial.Since then I never looked back.",
+    "des4": "Thanks to my creativity, problem solving and quickly learning new languages skills, I now have programming languages like C++, Java, Python, Typescript, Javascript, CSS, HTML, C#, Bash, Perl, curl, SQL and frameworks like Qt, Angular, Django, Flask, ASP.Net etc under my belt.I still have fervent desire to learn new programming languages and am enthusiastically learning new fameworks and principles.",
+    "des5": "I still have fervent desire to learn new programming languages and am enthusiastically learning new fameworks and principles. I like applying my experience, learned principles and patterns to multiple projects and thereby, making life of my team mates easier. It is immensely satisfying and brings genuine joy to my heart. To summarize, I am grown into the kind of software that is moldable but still keep its creative flare intact."
+    
   },
   "skills":{
     "my_skills": "My Skills"
