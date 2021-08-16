@@ -27,8 +27,8 @@
 - id: recommendations
   i18n: nav.blog
   name: Recommendations
-  tpl: recommendations.html
-  page: recommendations/
+  tpl: blog.html
+  page: blog/
   css: testimonials navy-section
 
 - id: links
