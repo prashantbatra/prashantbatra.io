@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Santosh Kumar, Certified Scrum Product Owner® (CSPO)"
+title:  "Santosh Kumar, Business Manager at HCL Technologies"
 date:   2016-01-31
 desc: "Santosh Kumar, Certified Scrum Product Owner® (CSPO)"
 keywords: "Prashant, Batra, prashant,batra, recommendations"
