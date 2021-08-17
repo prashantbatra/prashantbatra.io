@@ -25,7 +25,7 @@
   css: project
 
 - id: blog
-  i18n: nav.blog
+  i18n: nav1.blog
   name: Recommendations
   tpl: blog.html
   page: blog/
