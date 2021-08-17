@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Santosh Kumar, Certified Scrum Product Owner® (CSPO)"
-date:   2017-01-31
+date:   2016-01-31
 desc: "Santosh Kumar, Certified Scrum Product Owner® (CSPO)"
 keywords: "Prashant, Batra, prashant,batra, recommendations"
 categories: [HTML]
