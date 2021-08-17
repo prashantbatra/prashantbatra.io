@@ -10,7 +10,3 @@ icon: icon-html
 ---
 
 “Prashant was my mentor when I joined Mindfire Solutions as fresher. His multi-tasking skill was the first thing I noticed about him. He is a very good team player with excellent inter-personal skills. This is reflected by the fact that he maintains compatibility with seniors, colleagues and new comers in quick time. With an attitude of learning new technologies and ability to learn quickly, I think he will be asset for any team he will be part of.”
-
-Click here to view Nimesh Patel’s profile
-Nimesh Patel
-“Prashant is very sincere and a hard working individual, very friendly too. I had enjoyed working with him and wish him all the best for future.”
