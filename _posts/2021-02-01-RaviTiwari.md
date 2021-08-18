@@ -9,6 +9,8 @@ tags: [Prashant,Batra]
 icon: fa-thumbs-up
 ---
 
-“I know Prashant Batra while working together with Mindfire Solutions, New Delhi, India since Oct. 2005. 
+“I know Prashant Batra while working together with Mindfire Solutions, New Delhi, India since Oct. 2005.
+
 He is very sincere and hardworking software engineer. Always keen to know the new technology. He is true person as far as work is concern. 
+
 I wish him to keep on going and progressing in life.”
