@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Ravi Tiwari Startup Embedded Technologies, Noida, India"
+title:  "Ravi Tiwari, Startup Embedded Technologies, Noida, India"
 date:   2021-02-01
-desc: "Ravi Tiwari Startup Embedded Technologies, Noida, India"
+desc: "Ravi Tiwari, Startup Embedded Technologies, Noida, India"
 keywords: "Prashant, Batra, prashant,batra, recommendations"
 categories: [HTML]
 tags: [Prashant,Batra]
