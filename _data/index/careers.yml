@@ -4,15 +4,15 @@
     detail: Cognitec Systems GmbH
     i18n: cognitec_systems_gmbh_a
   desc:
-    detail: Leading the full stack development and design of multiple projects with well-documented and reliable RESTful backend and interactive front-end for an advanced software appliance that provides security assurance many customers.
+    detail: Leading the Full-stack development of multiple projects with well-documented and reliable RESTful backend and interactive front-end for an advanced software appliance that provides security assurance many customers.
     resp: <ul style="font-size:16px"><li><b>Provide Architectural and Design direction</b><ul style="font-size:16px"><li>Designing the solutions</li><li>Creating Proof of Concept (POC) based on the proposed design and architecture</li><li>Presenting the design and POC to Project Manager and Project Owners</li><li>Document solutions using flowcharts, layouts, diagrams, charts etc.</li></ul></li><li><b>Lead and Develop</b><ul style="font-size:16px"><li>Plan, prioritize and divide work using JIRA</li><li>Organize Sprint meetings with team</li><li>Contribute to the development</li></ul></li><li><b>Organize Brainstorming sessions</b><ul style="font-size:16px"><li>Collaborate with team to brainstorm on various topics.</li></ul></li><li><b>Automation</b><ul style="font-size:16px"><li>Automate repetitive tasks</li><li>Create automation software for end-to-end testing of products</li></ul></li><li><b>Deliver in in timely manner</b><ul style="font-size:16px"><li>Fulfilling the commitments by timely delivering the deliverables.</li><li>Announcing new features to teams in different countries via video conferencing</li></ul></li>
-    technologies: C++, Python, SWIG, Docker, Django REST, Apache, Postgres, Oracle, Sqlite, Git, JIRA, Angular (HTML5, TypeScript, CSS, Node, NPM)
+    technologies: C++, webRTC, Python, SWIG, Docker, Django REST, Apache, Postgres, Oracle, Sqlite, Git, JIRA, Angular (HTML5, TypeScript, CSS, Node, NPM)
     i18n: cognitec_systems_gmbh_a_desc
   date:
     detail: Jan. 2017 - Present
     i18n: cognitec_systems_gmbh_a_date
   job:
-    detail: Full Stack Developer & Architect
+    detail: Full Stack Development Lead & Architect
     i18n: cognitec_systems_gmbh_a_job
   icon: fa-plus-square
   present: true
