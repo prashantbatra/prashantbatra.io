@@ -4,7 +4,8 @@
     detail: Cognitec Systems GmbH
     i18n: cognitec_systems_gmbh_a
   desc:
-    detail: Leading the full stack development and design of multiple projects with well-documented and reliable RESTful backend and interactive <p>front-end for an advanced </p> software appliance that provides security assurance many customers.    
+    detail: Leading the full stack development and design of multiple projects with well-documented and reliable RESTful backend and interactive front-end for an advanced software appliance that provides security assurance many customers.
+    resp: <ul><li>Learned advanced networking concepts like the OSSI model, life cycle of a packet, and SDN</li><li>This is second</li></ul>
     i18n: cognitec_systems_gmbh_a_desc
   date:
     detail: Jan. 2017 - Present
