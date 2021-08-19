@@ -1,23 +1,23 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
-    i18n: company_a
+    detail: Cognitec Systems GmbH
+    i18n: cognitec_systems_gmbh_a
   desc:
-    detail: I worked at Company A ...
-    i18n: company_a_desc
+    detail: Leading the full stack development and design of multiple projects with well-documented and reliable RESTful backend and interactive front-end for an advanced software appliance that provides security assurance many customers.
+    i18n: cognitec_systems_gmbh_a_desc
   date:
-    detail: Apr. 2016
-    i18n: company_a_date
+    detail: Jan. 2017 - Present
+    i18n: cognitec_systems_gmbh_a_date
   job:
-    detail: CTO
-    i18n: company_a_job
+    detail: Full Stack Developer & Architect
+    i18n: cognitec_systems_gmbh_a_job
   icon: fa-plus-square
   present: true
 
 - name:
-    detail: Company B
-    i18n: company_b
+    detail: Cognitec Systems GmbH
+    i18n: cognitec_systems_gmbh_b
   desc:
     detail: I worked at Company B ...
     i18n: company_b_desc
