@@ -9,7 +9,7 @@
     technologies: C++, WebRTC, Python, SWIG, Docker, Django REST, Apache, Postgres, Oracle, SQL, Sqlite, Git, JIRA, Angular (HTML5, TypeScript, CSS, Node, NPM)
     i18n: cognitec_systems_gmbh_a_desc
   date:
-    detail: Jan. 2017 - Present
+    detail: May 2012 - Present
     i18n: cognitec_systems_gmbh_a_date
   job:
     detail: Full-Stack Development Lead & Architect
@@ -18,17 +18,17 @@
   present: true
 
 - name:
-    detail: Cognitec Systems GmbH
-    i18n: cognitec_systems_gmbh_b
+    detail: Tech Mahindra GmbH
+    i18n: tech_mahindra_gmbh_b
   desc:
-    detail: Led the Full-stack development of an ID Management application which uses face recognition technology for capturing biometric photos for international travel documents and for private enterprises, health insurance organizations and many others.
-    resp: <ul style="font-size:16px"><li><b>Architecture, Devepment & Maintainance</b><ul style="font-size:16px"><li>Create designs based on the feature request</li><li>Present the proposed solution for approval</li><li>Document solutions</li><li>Develop the feature</li></ul></li><li><b>Project planning</b><ul style="font-size:16px"><li>Plan & prioritize tasks using JIRA</li></ul></li><li><b>Deliver in timely manner</b><ul style="font-size:16px"><li>Fullfill the commitments by timely delivering the deliverables.</li><li>Announce new features to teams in different countries via video conferencing</li></ul></li><li><b>Maintainance</b><ul style="font-size:16px"><li>Handle issues within defined SLAs.</li><li>Create patch releases</li></ul></li></ul>
+    detail: Worked full time onsite at T-Mobile (Deutsche Telekom) 
+    resp: <ul style="font-size:16px"><li><b>Design, Devepment & Maintainance</b><ul style="font-size:16px"><li>Create designs based on the feature request</li><li>Present the proposed solution for approval</li><li>Document solutions</li><li>Develop the feature</li></ul></li><li><b>Automation</b><ul style="font-size:16px"><li>Plan & prioritize tasks using JIRA</li></ul></li><li><b>Deliver in timely manner</b><ul style="font-size:16px"><li>Fullfill the commitments by timely delivering the deliverables.</li><li>Announce new features to teams in different countries via video conferencing</li></ul></li><li><b>Maintainance</b><ul style="font-size:16px"><li>Handle issues within defined SLAs.</li><li>Create patch releases</li></ul></li></ul>
     technologies: C++, Java, Qt, Git, JIRA, 
-    i18n: company_b_desc
+    i18n: tech_mahindra_gmbh_b_desc
   date:
-    detail: Jun. 2015 - Dec 2016
-    i18n: company_b_date
+    detail: April 2009 - April 2012
+    i18n: tech_mahindra_gmbh_b_date
   job:
-    detail: Full Stack Developement Lead
-    i18n: company_b_job
+    detail: Senior Technical Associate
+    i18n: tech_mahindra_gmbh_b_job
   icon: fa-plus-square
