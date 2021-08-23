@@ -21,8 +21,8 @@
     detail: Tech Mahindra GmbH
     i18n: tech_mahindra_gmbh_b
   desc:
-    detail: Worked full time onsite at T-Mobile (Deutsche Telekom) 
-    resp: <ul style="font-size:16px"><li><b>Design & Devepment</b><ul style="font-size:16px"><li>Create designs based on the feature request documents</li><li>Present the proposed solution for approval</li><li>Develop the feature</li></ul></li><li><b>Automation</b><ul style="font-size:16px"><li>Developed automated Test Suite for testing team</li><li>Develped autmated build process for build team</li></ul></li><li><b>Maintainance</b><ul style="font-size:16px"><li>Fix issues within defined SLAs.</li></ul></li></ul>
+    detail: Worked full time onsite at T-Mobile (Deutsche Telekom) as Senior Technical Associate
+    resp: <ul style="font-size:16px"><li><b>Design & Devepment</b><ul style="font-size:16px"><li>Create designs based on the feature request documents</li><li>Present the proposed solution for approval</li><li>Develop the feature</li></ul></li><li><b>Production release</b><ul style="font-size:16px"><li>Contributed to quaterly production release activities</li></ul></li><li><b>Automation</b><ul style="font-size:16px"><li>Developed automated Test Suite for testing team</li><li>Develped autmated build process for build team</li></ul></li><li><b>Maintainance</b><ul style="font-size:16px"><li>Fix issues within defined SLAs.</li></ul></li></ul>
     technologies: C++, Clearcase
     i18n: tech_mahindra_gmbh_b_desc
   date:
@@ -32,3 +32,20 @@
     detail: Senior Technical Associate
     i18n: tech_mahindra_gmbh_b_job
   icon: fa-plus-square
+ 
+  - name:
+    detail: Appulse  Technologies 
+    i18n: appulse_technologies_c
+  desc:
+    detail: Worked as Senior Software Enginner and contributed to the development of Video players and in-house projects
+    resp: <ul style="font-size:16px"><li><b>Devepment</b><ul style="font-size:16px"><li>Discuss the features with team lead</li><li>Develop the feature</li><li>Perform unit tests</li></ul></li><li><b>Lead in-house projects</b><ul style="font-size:16px"><li>Worked closely with CTO of the company</li><li>Proposed designs</li><li>Implemented the mutually agreed solutions</li></ul></li></li></ul>
+    technologies: C++ 
+    i18n: appulse_technologies_c_desc
+  date:
+    detail: April 2009 - April 2012
+    i18n: appulse_technologies_c_date
+  job:
+    detail: Senior Technical Associate
+    i18n: appulse_technologies_c_job
+  icon: fa-plus-square
+
