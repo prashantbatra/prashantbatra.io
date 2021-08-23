@@ -42,10 +42,10 @@
     technologies: C++ 
     i18n: appulse_technologies_c_desc
   date:
-    detail: April 2009 - April 2012
+    detail: September 2007 - April 2009
     i18n: appulse_technologies_c_date
   job:
-    detail: Senior Technical Associate
+    detail: Senior Software Engineer
     i18n: appulse_technologies_c_job
   icon: fa-plus-square
 
