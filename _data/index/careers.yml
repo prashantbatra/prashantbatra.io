@@ -54,7 +54,7 @@
     i18n: mindfire_solutions_d
   desc:
     detail: Worked as Software Developer for mobile developments where I contributed for many white papers and developed in-house algorithms .
-    resp: <ul style="font-size:16px"><li><b>Devepment</b><ul style="font-size:16px"><li>Discuss the features with team lead</li><li>Develop the feature</li><li>Perform Unit tests</li><li>Perform System tests</li><li>Prepare releases</li></ul></li><li><b>Algorithms development</b><ul style="font-size:16px"><li></li><li>Highly optimzed the size of a game by developing an algo to use single image instead to multiple images </li></ul></li></ul>
+    resp: <ul style="font-size:16px"><li><b>Devepment</b><ul style="font-size:16px"><li>Discuss the features with team lead</li><li>Develop the feature</li><li>Perform Unit tests</li><li>Perform System tests</li><li>Prepare releases</li></ul></li><li><b>Algorithms development</b><ul style="font-size:16px"><li>Highly optimzed the size of a game by developing an algo to use single image instead to multiple images </li></ul></li></ul>
     technologies: C++, Java
     i18n: mindfire_solutions_d_desc
   date:
