@@ -23,7 +23,7 @@
   desc:
     detail: Worked full time onsite at T-Mobile (Deutsche Telekom) 
     resp: <ul style="font-size:16px"><li><b>Design & Devepment</b><ul style="font-size:16px"><li>Create designs based on the feature request documents</li><li>Present the proposed solution for approval</li><li>Develop the feature</li></ul></li><li><b>Automation</b><ul style="font-size:16px"><li>Developed automated Test Suite for testing team</li><li>Develped autmated build process for build team</li></ul></li><li><b>Maintainance</b><ul style="font-size:16px"><li>Fix issues within defined SLAs.</li></ul></li></ul>
-    technologies: C++, Java, Qt, Git, JIRA, 
+    technologies: C++, Clearcase
     i18n: tech_mahindra_gmbh_b_desc
   date:
     detail: April 2009 - April 2012
