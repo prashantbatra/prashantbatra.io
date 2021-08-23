@@ -37,9 +37,9 @@
     detail: Appulse  Technologies 
     i18n: appulse_technologies_c
   desc:
-    detail: Worked as Senior Software Enginner and contributed to the development of Video players and in-house projects
-    resp: <ul style="font-size:16px"><li><b>Devepment</b><ul style="font-size:16px"><li>Discuss the features with team lead</li><li>Develop the feature</li><li>Perform unit tests</li></ul></li><li><b>Lead in-house projects</b><ul style="font-size:16px"><li>Worked closely with CTO of the company</li><li>Proposed designs</li><li>Implemented the mutually agreed solutions</li></ul></li></ul>
-    technologies: C++ 
+    detail: Worked as Senior Software Enginner and contributed to the development of Video players & in-house projects
+    resp: <ul style="font-size:16px"><li><b>Devepment</b><ul style="font-size:16px"><li>Discuss the features with team lead</li><li>Develop the feature</li><li>Perform Unit tests</li></ul></li><li><b>Lead in-house projects</b><ul style="font-size:16px"><li>Worked closely with CTO of the company</li><li>Proposed designs</li><li>Implemented the mutually agreed solutions</li></ul></li><li><b>Hiring process</b><ul style="font-size:16px"><li>Contributed to the hiring process</li><li>Conducted many technical interviews</li></ul></li></ul>
+    technologies: C++, Java
     i18n: appulse_technologies_c_desc
   date:
     detail: September 2007 - April 2009
@@ -47,6 +47,22 @@
   job:
     detail: Senior Software Engineer
     i18n: appulse_technologies_c_job
+  icon: fa-plus-square
+  
+- name:
+    detail: Mindfire Solutions
+    i18n: mindfire_solutions_d
+  desc:
+    detail: Worked as Software Developer for mobile developments where I contributed for many white papers and developed in-house algorithms .
+    resp: <ul style="font-size:16px"><li><b>Devepment</b><ul style="font-size:16px"><li>Discuss the features with team lead</li><li>Develop the feature</li><li>Perform Unit tests</li><li>Perform System tests</li><li>Prepare releases</li></ul></li><li><b>Algorithms development</b><ul style="font-size:16px"><li></li><li>Highly optimzed the size of a game by developing an algo to use single image instead to multiple images </li></ul></li></ul>
+    technologies: C++, Java
+    i18n: mindfire_solutions_d_desc
+  date:
+    detail: September 2007 - April 2009
+    i18n: mindfire_solutions_d_date
+  job:
+    detail: Software Developer
+    i18n: mindfire_solutions_d_job
   icon: fa-plus-square
  
 
