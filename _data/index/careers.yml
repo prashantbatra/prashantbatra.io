@@ -32,6 +32,22 @@
     detail: Senior Technical Associate
     i18n: tech_mahindra_gmbh_b_job
   icon: fa-plus-square
+  
+- name:
+    detail: Appulse  Technologies 
+    i18n: appulse_technologies_c
+  desc:
+    detail: Worked as Senior Software Enginner and contributed to the development of Video players and in-house projects
+    resp: <ul style="font-size:16px"><li><b>Devepment</b><ul style="font-size:16px"><li>Discuss the features with team lead</li><li>Develop the feature</li><li>Perform unit tests</li></ul></li><li><b>Lead in-house projects</b><ul style="font-size:16px"><li>Worked closely with CTO of the company</li><li>Proposed designs</li><li>Implemented the mutually agreed solutions</li></ul></li></ul>
+    technologies: C++ 
+    i18n: appulse_technologies_c_desc
+  date:
+    detail: September 2007 - April 2009
+    i18n: appulse_technologies_c_date
+  job:
+    detail: Senior Software Engineer
+    i18n: appulse_technologies_c_job
+  icon: fa-plus-square
  
 
 
