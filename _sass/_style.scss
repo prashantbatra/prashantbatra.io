@@ -110,7 +110,7 @@ h3, h4, h5 {
 }
 
 .nav > li.active {
-  border-left: 4px solid #3385FF;
+  border-left: 4px solid #005547;
   background: #293846;
 }
 
@@ -153,15 +153,15 @@ h3, h4, h5 {
 }
 
 .navbar-default .landing_link a {
-  background: #3385FF;
+  background: #005547;
   color: #fff;
   &:hover {
-    background: #3385FF !important;
+    background: #005547 !important;
     color: #fff;
   }
   span.label {
     background: #fff;
-    color: #3385FF;
+    color: #005547;
   }
 }
 
@@ -227,14 +227,14 @@ body.canvas-menu .nav-header {
     a {
       &:focus, &:hover {
         background: #fff;
-        color: #3385FF;
+        color: #005547;
       }
     }
     &.active {
       background: #fff;
       border: none;
       > a {
-        color: #3385FF;
+        color: #005547;
       }
     }
   }
@@ -256,7 +256,7 @@ body.canvas-menu .nav-header {
 }
 
 .top-navigation .navbar-brand {
-  background: #3385FF;
+  background: #005547;
   color: #fff;
   padding: 15px 25px;
 }
@@ -305,7 +305,7 @@ body.canvas-menu .nav-header {
 }
 
 .navbar-toggle {
-  background-color: #3385FF;
+  background-color: #005547;
   color: #fff;
   padding: 6px 12px;
   font-size: 14px;
@@ -349,7 +349,7 @@ button.dim {
 }
 
 .btn-primary.btn-outline {
-  color: #3385FF;
+  color: #005547;
 }
 
 .btn-success.btn-outline {
@@ -369,8 +369,8 @@ button.dim {
 }
 
 .btn-primary {
-  background-color: #3385FF;
-  border-color: #3385FF;
+  background-color: #005547;
+  border-color: #005547;
   color: #FFF;
   &.active {
     background-color: #0073B1;
@@ -593,7 +593,7 @@ button.dim {
 .btn-link {
   color: inherit;
   &.active, &:active, &:focus, &:hover {
-    color: #3385FF;
+    color: #005547;
     text-decoration: none;
   }
   &.active[disabled] {
@@ -760,7 +760,7 @@ button.dim:active:before {
 }
 
 .label-primary {
-  background-color: #3385FF;
+  background-color: #005547;
   color: #FFF;
 }
 
@@ -862,12 +862,12 @@ button.dim:active:before {
   transition: border-color .15s ease-in-out 0s, box-shadow .15s ease-in-out 0s;
   font-size: 14px;
   &:focus {
-    border-color: #3385FF !important;
+    border-color: #005547 !important;
   }
 }
 
 .has-success .form-control {
-  border-color: #3385FF;
+  border-color: #005547;
 }
 
 .has-warning .form-control {
@@ -879,7 +879,7 @@ button.dim:active:before {
 }
 
 .has-success .control-label {
-  color: #3385FF;
+  color: #005547;
 }
 
 .has-warning .control-label {
@@ -1143,7 +1143,7 @@ label.error {
 }
 
 .vertical-date small {
-  color: #3385FF;
+  color: #005547;
   font-weight: 400;
 }
 
@@ -1214,7 +1214,7 @@ label.error {
 }
 
 .slick-next:before, .slick-prev:before {
-  color: #3385FF !important;
+  color: #005547 !important;
 }
 
 body {
@@ -1430,7 +1430,7 @@ code {
 }
 
 .navy-bg {
-  background-color: #3385FF;
+  background-color: #005547;
   color: #fff;
 }
 
@@ -1440,7 +1440,7 @@ code {
 }
 
 .panel-primary {
-  border-color: #3385FF;
+  border-color: #005547;
 }
 
 .panel-success {
@@ -1460,7 +1460,7 @@ code {
 }
 
 .text-navy {
-  color: #3385FF;
+  color: #005547;
 }
 
 .text-primary {
@@ -1731,7 +1731,7 @@ ul.clear-list:first-child {
   }
   a {
     .text-navy {
-      color: #3385FF;
+      color: #005547;
     }
     .text-primary {
       color: #1c84c6;
@@ -1810,7 +1810,7 @@ ul.clear-list:first-child {
   a {
     color: inherit;
     &:hover {
-      color: #3385FF;
+      color: #005547;
     }
   }
 }
@@ -1969,7 +1969,7 @@ ul.clear-list:first-child {
   text-align: center;
   font-weight: 600;
   a {
-    color: #3385FF;
+    color: #005547;
     font-weight: 600;
   }
 }
@@ -1993,7 +1993,7 @@ ul.clear-list:first-child {
     font-size: 12px;
     margin-right: 10px;
     &:hover {
-      color: #3385FF;
+      color: #005547;
     }
   }
 }
@@ -2002,7 +2002,7 @@ ul.clear-list:first-child {
   text-align: right;
   font-size: 38px; 
   &.active {
-    color: #3385FF;
+    color: #005547;
   }
 }
 
@@ -2359,16 +2359,16 @@ body {
 
 .landing-page {
   span.navy {
-    color: #3385FF;
+    color: #005547;
   }
   p.text-color {
     color: #676a6c;
   }
   a.navy-link {
-    color: #3385FF;
+    color: #005547;
     text-decoration: none;
     &:hover {
-      color: #3385FF;
+      color: #005547;
     }
   }
   section p {    
@@ -2383,7 +2383,7 @@ body {
     width: 60px;
     height: 1px;
     margin: 60px auto 0;
-    border-bottom: 2px solid #3385FF;
+    border-bottom: 2px solid #005547;
   }
   .navbar-wrapper {
     position: fixed;
@@ -2427,16 +2427,16 @@ body {
       .active > a {
         background: 0 0;
         color: #fff;
-        border-top: 6px solid #3385FF;
+        border-top: 6px solid #005547;
         &:hover {
           background: 0 0;
           color: #fff;
-          border-top: 6px solid #3385FF;
+          border-top: 6px solid #005547;
         }
       }
       li > a {
         &:focus, &:hover {
-          color: #3385FF;
+          color: #005547;
           background: #f6f6f6;
         }
       }
@@ -2451,14 +2451,14 @@ body {
     }
     .navbar-brand {
       &:focus, &:hover {
-        background: #3385FF;
+        background: #005547;
         color: #fff;
       }
       color: #fff;
       height: auto;
       display: block;
       font-size: 14px;
-      background: #3385FF;
+      background: #005547;
       padding: 15px 20px;
       border-radius: 0 0 5px 5px;
       font-weight: 700;
@@ -2468,7 +2468,7 @@ body {
   .navbar-scroll.navbar-default .nav li a {
     color: #676a6c;
     &:hover {
-      color: #3385FF;
+      color: #005547;
     }
   }
   .navbar-wrapper .navbar.navbar-scroll {
@@ -2596,7 +2596,7 @@ body {
   }
   .features {
     small {
-      color: #3385FF;
+      color: #005547;
     }
     h2 {
       font-size: 18px;
@@ -2604,12 +2604,12 @@ body {
     }
   }
   .features-icon {
-    color: #3385FF;
+    color: #005547;
     font-size: 40px;
   }
   .navy-section {
     margin-top: 60px;
-    background: #3385FF;
+    background: #005547;
     color: #fff;
     padding: 20px 0;
   }
@@ -2624,7 +2624,7 @@ body {
     }
   }
   .social-icon a {
-    background: #3385FF;
+    background: #005547;
     color: #fff;
     padding: 4px 8px;
     height: 28px;
@@ -2632,7 +2632,7 @@ body {
     display: block;
     border-radius: 50px;
     &:hover {
-      background: #3385FF;
+      background: #005547;
     }
   }
   .img-small {
@@ -2646,7 +2646,7 @@ body {
   .testimonials {
     padding-top: 80px;
     padding-bottom: 90px;
-    background-color: #3385FF;
+    background-color: #005547;
     background-image: url(../assets/img/landing/avatar_all.png);
   }
   .contact {
@@ -2677,12 +2677,12 @@ body {
     color: #fff;
   }
   .btn-primary {
-    background-color: #3385FF;
-    border-color: #3385FF;
+    background-color: #005547;
+    border-color: #005547;
     color: #FFF;
     &.active, &:active, &:focus, &:hover {
-      background-color: #3385FF;
-      border-color: #3385FF;
+      background-color: #005547;
+      border-color: #005547;
       color: #FFF;
     }
     padding: 10px 20px;
@@ -2759,7 +2759,7 @@ body {
       .nav li a {
         color: #676a6c;
         &:hover {
-          color: #3385FF;
+          color: #005547;
         }
       }
     }
