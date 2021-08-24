@@ -498,9 +498,13 @@ button.dim {
 }
 
 .btn-default {
-  color: inherit;
+  color: black;
   background: #fff;
-  border: 1px solid #e7eaec;
+  &:focus, &:hover {
+      color: #005547;      
+    }
+  border: 1px solid black;
+  
 }
 
 .btn-link {
