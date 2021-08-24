@@ -500,11 +500,7 @@ button.dim {
 .btn-default {
   color: black;
   background: #fff;
-  &:focus, &:hover {
-      color: #005547;      
-    }
-  border: 1px solid black;
-  
+  border: 1px solid black;  
 }
 
 .btn-link {
