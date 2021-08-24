@@ -63,10 +63,6 @@ grid-container {
 }
 
 .flip-box-back {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;  
   background-color: #e8f2ea;
   color: #005547;
   transform: rotateY(180deg);
