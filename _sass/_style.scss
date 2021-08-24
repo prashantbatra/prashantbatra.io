@@ -4,15 +4,6 @@
   }
 }
 
-.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
 grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -75,8 +66,7 @@ grid-container {
   margin: 0;
   position: absolute;
   top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);    
+  left: 50%;  
   background-color: #e8f2ea;
   color: #005547;
   transform: rotateY(180deg);
