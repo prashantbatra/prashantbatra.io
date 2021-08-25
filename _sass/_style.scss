@@ -33,7 +33,7 @@ grid-container {
   border: 1px solid #f1f1f1;
   perspective: 1000px;
   border: 1px solid #b2b9c4;
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.31);
 }
 
 .flip-box-inner {
@@ -66,8 +66,8 @@ grid-container {
 }
 
 .flip-box-back {
-  background-color: #e8f2ea;
-  color: #005547;
+  background-color: #005547;
+  color: #e8f2ea;
   transform: rotateY(180deg);
 }
 
@@ -2757,8 +2757,7 @@ body {
   .testimonials {
     padding-top: 80px;
     padding-bottom: 90px;
-    background-color: #005547;
-    background-image: url(../assets/img/landing/avatar_all.png);
+    background-color: #005547;    
   }
   .contact {
     background-image: url(../assets/img/landing/word_map.png);
