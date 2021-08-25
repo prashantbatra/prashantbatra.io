@@ -59,7 +59,10 @@ grid-container {
 
 .flip-box-front {
   background-color: #005547;
-  color: #e8f2ea;
+  color: #e8f2ea; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .flip-box-back {
