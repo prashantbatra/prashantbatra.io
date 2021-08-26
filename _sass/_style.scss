@@ -70,6 +70,9 @@ grid-container {
   background-color: #005547;
   color: #e8f2ea;
   transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
