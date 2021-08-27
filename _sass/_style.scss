@@ -57,6 +57,7 @@
   cursor: pointer;
   transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .arrow-slide {
@@ -128,16 +129,6 @@
     transform: translateY(200%);
   }
 }
-
-.arrow-up {
-    margin-left: 100px;
-}
-
-.arrow-up {
-    position: fixed;
-    top: 200px;
-}
-
 
 grid-container {
   display: grid;
