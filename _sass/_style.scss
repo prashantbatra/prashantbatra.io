@@ -52,12 +52,16 @@
   height: 40px;
   width: 40px;
   display: block;
-  border: 1px solid #666;
+  border: 1px solid #005547;
   position: relative;
   cursor: pointer;
   transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
   overflow: hidden;
   margin: 0 auto;
+  border-radius: 1px 1px 0 0;
+  background: white;
+  box-shadow: 0 0 7px rgb(0 0 0 / 25%);
+  
 }
 
 .arrow-slide {
@@ -65,7 +69,7 @@
   top: -100%;
   width: 100%;
   height: 100%;
-  background: #666;
+  background: #005547;
   position: absolute;
   display: block;
   z-index: 0;
@@ -82,7 +86,7 @@
   transform: rotate(-45deg);
   &:after {
     content: "";
-    background-color: #666;
+    background-color: #005547;
     width: 20px;
     height: 1px;
     display: block;
@@ -105,7 +109,7 @@
   border-radius: 2px;
   &:after {
     content: "";
-    background-color: #666;
+    background-color: #005547;
     width: 20px;
     height: 1px;
     display: block;
