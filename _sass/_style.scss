@@ -417,8 +417,8 @@ body.canvas-menu .nav-header {
 }
 
 .top-navigation .navbar-brand {
-  background: #005547;
-  color: #fff;
+  background: white;
+  color: black;
   padding: 15px 25px;
 }
 
@@ -2560,6 +2560,7 @@ body {
     .navbar {
       padding-right: 15px;
       padding-left: 15px;
+      background-color:black;
     }
   }
   .navbar-default {
