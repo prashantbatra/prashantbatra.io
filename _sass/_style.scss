@@ -2873,7 +2873,6 @@ body {
     .navbar-wrapper {
       margin-top: 20px;
       .container {
-        height:52px;
         padding-right: 15px;
         padding-left: 15px;
       }
@@ -2917,6 +2916,7 @@ body {
       background-color: transparent;
       border-color: #fff;
       padding: 15px 0;
+      height:52px;
       .navbar-nav > .active > a:focus {
         background: 0 0;
         color: inherit;
