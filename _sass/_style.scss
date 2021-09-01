@@ -2873,6 +2873,7 @@ body {
     .navbar-wrapper {
       margin-top: 20px;
       .container {
+        height:52px
         padding-right: 15px;
         padding-left: 15px;
       }
@@ -2963,9 +2964,8 @@ body {
     .navbar .navbar-header {
       display: block;
       float: none;
-      .navbar-toggle {
-        background-color: #fff;
-        padding: 9px 10px;
+      .navbar-toggle {        
+        padding: 10px 10px;
         border: none;
       }
     }
