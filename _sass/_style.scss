@@ -2762,7 +2762,7 @@ body {
     .navbar {
       padding-right: 15px;
       padding-left: 15px;
-      background-color:#005547;
+      background-color:#65CCB8;
     }
   }
   .navbar-default {
@@ -2775,7 +2775,7 @@ body {
     border-color: transparent;
     transition: all .3s ease-in-out 0s;
     .nav li a {
-      color: #fff;
+      color: black;
       font-family: 'Open Sans', helvetica, arial, sans-serif;
       font-weight: 700;
       letter-spacing: 1px;
@@ -2801,7 +2801,7 @@ body {
       }
       li > a {
         &:focus, &:hover {
-          color: #005547;
+          /*color: #005547;*/
           background: #f6f6f6;
         }
       }
