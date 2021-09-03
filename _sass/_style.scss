@@ -4,6 +4,15 @@
   }
 }
 
+.introD {
+    display: block;
+    position: relative;
+    transform: translateY(2rem) rotate(4deg);
+    opacity: 0;
+    transform-origin: 0% 50%;
+}  
+
+
 div.door {
     background-color: red;
     -webkit-transform-style: preserve-3d;
@@ -242,7 +251,7 @@ h3, h4, h5 {
 }
 
 .navbar-default .nav > li > a {
-  transition: background-color 1s ease-out;
+  transition: background-color 0.5s ease-out;
   &:focus, &:hover {
     /*background-color: #293846;
     color: #fff;*/
