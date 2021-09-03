@@ -19,6 +19,12 @@
     transform: translateY(4rem) rotate(6deg);
 }
 
+.dynIF {
+    position: relative;
+    display: inline-block;
+    transform-origin: 0% 50%;
+}
+
 
 div.door {
     background-color: red;
