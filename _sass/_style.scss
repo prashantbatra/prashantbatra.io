@@ -242,10 +242,13 @@ h3, h4, h5 {
 }
 
 .navbar-default .nav > li > a {
-  /*&:focus, &:hover {
-    background-color: #293846;
-    color: #fff;
-  }*/
+  transition: background-color 1s ease-out;
+  &:focus, &:hover {
+    /*background-color: #293846;
+    color: #fff;*/
+    background-color: white;
+  }
+  
 }
 
 .nav.navbar-top-links > li > a {
