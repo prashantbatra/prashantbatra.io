@@ -2611,6 +2611,8 @@ body {
   .navbar-nav > li > a {
     padding-top: 25px;
     border-top: 6px solid transparent;
+    transition: 0.3s ease;   
+    
   }
   .navbar-default {
     .navbar-nav > {
@@ -2622,6 +2624,7 @@ body {
           background: 0 0;
           color: #fff;
           border-top: 6px solid #005547;
+          padding-top: 10px;
         }
       }
       li > a {
