@@ -2802,6 +2802,9 @@ body {
       li > a {
         &:focus, &:hover {
           /*color: #005547;*/
+          border-top: 4px solid #ffffff;
+          border-bottom: 4px solid #ffffff;
+          padding: 6px 0; 
           background: #f6f6f6;
         }
       }
