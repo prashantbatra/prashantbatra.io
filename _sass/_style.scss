@@ -10,7 +10,6 @@
   justify-content: center;
   height: 100.7rem;
   padding: 0px 6.5rem;
-  opacity:0
   /*max-width: 128rem;*/
 }
 @-webkit-keyframes k-rotateSecond {
@@ -48,6 +47,8 @@
     opacity: 0;
     }
    25% {
+    transform: translateY(2rem) rotate(4deg);
+    -webkit-transform: translateY(2rem) rotate(4deg);
     opacity: 1;
     }
    100% {
