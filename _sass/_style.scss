@@ -77,6 +77,33 @@
     }
 }
 
+@-webkit-keyframes k-rotateFirstDynamic {
+  0% {
+    transform: translateY(4rem) rotate(6deg);
+    -webkit-transform: translateY(4rem) rotate(6deg);
+    opacity: 0;
+    }
+  100% {
+    transform: translate(0px,0px);
+    -webkit-transform: translate(0px,0px);
+    opacity: 1;
+    }
+}
+
+
+@keyframes k-rotateFirstDynamic {
+  0% {
+    transform: translateY(4rem) rotate(6deg);
+    -webkit-transform: translateY(4rem) rotate(6deg);
+    opacity: 0;
+    }
+  100% {
+    transform: translate(0px,0px);
+    -webkit-transform: translate(0px,0px);
+    opacity: 1;
+    }
+}
+
 
 @-webkit-keyframes k-rotateSecond {
   0% {
@@ -144,22 +171,21 @@
 }
 
 .introD {
-    display: block;
-    position: relative;
-    transform-origin: 0% 50%;
+  display: inline-block;
+  position: relative;
+  transform-origin: 0% 50%;
 } 
 
 .dynamicIntro {
-    position: relative;
-    display: inline-block;
-    opacity: 0;
-    transform: translateY(4rem) rotate(6deg);
+  display: inline-block;
+  position: relative;
+    
 }
 
 .dynIF {
-    position: relative;
-    display: inline-block;
-    transform-origin: 0% 50%;
+  display: inline-block;
+  position: relative;
+  transform-origin: 0% 50%;
 }
 
 // Up Arrow Swipe
