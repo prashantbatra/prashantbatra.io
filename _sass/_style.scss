@@ -21,12 +21,12 @@
 	background: black;
 }	
 
-.hamburger .meat {
+.meat {
 	width: 75%;
 	transition: all 200ms ease-in-out;
 }	
 
-.hamburger .bottom-bun {
+.bottom-bun {
 	width: 50%;
 	transition: all 400ms ease-in-out;
 }	
@@ -34,15 +34,15 @@
 .hamburger:hover div {
   width: 100%;
 }
-.hamburger:hover .top-bun {
+:hover .top-bun {
   -webkit-animation: burger-hover 1s infinite ease-in-out alternate;
           animation: burger-hover 1s infinite ease-in-out alternate;
 }
-.hamburger:hover .meat {
+:hover .meat {
   -webkit-animation: burger-hover 1s infinite ease-in-out alternate forwards 200ms;
           animation: burger-hover 1s infinite ease-in-out alternate forwards 200ms;
 }
-.hamburger:hover .bottom-bun {
+:hover .bottom-bun {
   -webkit-animation: burger-hover 1s infinite ease-in-out alternate forwards 400ms;
           animation: burger-hover 1s infinite ease-in-out alternate forwards 400ms;
 }
