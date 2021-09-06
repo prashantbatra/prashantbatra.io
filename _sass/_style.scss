@@ -4,6 +4,12 @@
   }
 }
 
+.line{
+	width: 112px;
+	height: 47px;
+	border-bottom: 1px solid black;
+}
+
 .logo {
 	font-family: 'Anton', sans-serif;
 	perspective: 1000px; 
@@ -20,6 +26,8 @@
 	font-weight:700;
 	font-family: Vesterbro,Times,serif; 
 }
+
+
 
 @keyframes balance {
 	0%, 100% {
