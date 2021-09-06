@@ -4,6 +4,34 @@
   }
 }
 
+.hamburger {
+	display: flex;
+	align-self: center;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100px;
+	height: 60px;
+	cursor: pointer;
+}
+
+.hamburger  div {
+	align-self: flex-end;
+	height: 4px;
+	width: 100%;
+	background: black;
+}	
+
+.hamburger .meat {
+	width: 75%;
+	transition: all 200ms ease-in-out;
+}	
+
+.hamburger .bottom-bun {
+	width: 50%;
+	transition: all 400ms ease-in-out;
+}	
+
+
 .logo {
 	font-family: 'Anton', sans-serif;
 	perspective: 1000px; 
@@ -12,9 +40,13 @@
 .logo span {
 	cursor: pointer;
 	display: inline-block;
-	font-size: 22px;
+	font-size: 16px;
 	user-select: none;
 	line-height: .8;
+	margin-top:15px;
+	color:black;
+	font-weight:700;
+	font-family: Vesterbro,Times,serif; 
 }
 
 @keyframes balance {
@@ -116,8 +148,6 @@
     opacity: 1;
     }
 }
-
-
 @keyframes k-rotateFirst {
   0% {
     transform: translateY(2rem) rotate(4deg);
@@ -133,13 +163,13 @@
 
 @-webkit-keyframes k-rotateFirstStatic{
   0% {
-    transform: translateX(-35%);
-    -webkit-transform: translateX(-35%);
+    transform: translateX(-40%);
+    -webkit-transform: translateX(-40%);
     opacity: 0;
     }
   12.5%,25%,37.5%,50%,62.5%,75% {
-    transform: translateX(-35%);
-    -webkit-transform: translateX(-35%);
+    transform: translateX(-40%);
+    -webkit-transform: translateX(-40%);
     opacity: 1;
     }
   100% {
@@ -148,24 +178,22 @@
     opacity: 1;
     }
 }
-
-
 @keyframes k-rotateFirstStatic {
   0% {
-    transform: translateX(-35%);
-    -webkit-transform: translateX(-35%);
+    transform: translateX(-40%);
+    -webkit-transform: translateX(-40%);
     opacity: 0;
     }
   12.5%,25%,37.5%,50%,62.5%,75% {
-    transform: translateX(-35%);
-    -webkit-transform: translateX(-35%);
+    transform: translateX(-40%);
+    -webkit-transform: translateX(-40%);
     opacity: 1;
     }
   100% {
     transform: translate(5%,0px);
     -webkit-transform: translate(5%,0px);
 
-  }
+    }
 }
 
 @-webkit-keyframes k-rotateFirstDynamic {
@@ -757,7 +785,40 @@ body.canvas-menu .nav-header {
     padding: 0px 2.5rem;
     font-size: 3.2rem ! important;
   }
-    
+  @-webkit-keyframes k-rotateFirstStatic{
+  0% {
+    transform: translateX(-35%);
+    -webkit-transform: translateX(-35%);
+    opacity: 0;
+    }
+  12.5%,25%,37.5%,50%,62.5%,75% {
+    transform: translateX(-35%);
+    -webkit-transform: translateX(-35%);
+    opacity: 1;
+    }
+  100% {
+    transform: translate(5%,0px);
+    -webkit-transform: translate(5%,0px);
+    opacity: 1;
+    }
+  }
+  @keyframes k-rotateFirstStatic {
+  0% {
+    transform: translateX(-35%);
+    -webkit-transform: translateX(-35%);
+    opacity: 0;
+    }
+  12.5%,25%,37.5%,50%,62.5%,75% {
+    transform: translateX(-35%);
+    -webkit-transform: translateX(-35%);
+    opacity: 1;
+    }
+  100% {
+    transform: translate(5%,0px);
+    -webkit-transform: translate(5%,0px);
+
+    }
+   }
 }
 
 .menu-visible-lg, .menu-visible-md {
