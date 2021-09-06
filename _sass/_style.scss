@@ -9,10 +9,10 @@
 	width: 57px;
     	height: 50px;
     	border-bottom: 2px solid black;
-	&:hover {
-		
-		animation: burger-hover 1s infinite ease-in-out alternate;
-    	}
+}
+
+.line:hover {
+  animation: burger-hover 1s infinite;
 }
 
 @-webkit-keyframes burger-hover {
