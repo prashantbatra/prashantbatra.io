@@ -5,9 +5,38 @@
 }
 
 .line{
-	width: 112px;
-	height: 47px;
-	border-bottom: 1px solid black;
+	margin-left: 14px;
+	width: 57px;
+    	height: 47px;
+    	border-bottom: 2px solid black;
+	&:focus, &:hover {
+		-webkit-animation: burger-hover 1s infinite ease-in-out alternate;
+		animation: burger-hover 1s infinite ease-in-out alternate;
+    	}
+}
+
+@-webkit-keyframes burger-hover {
+  0% {
+    width: 100%;
+  }
+  50% {
+    width: 50%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes burger-hover {
+  0% {
+    width: 100%;
+  }
+  50% {
+    width: 50%;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
 .logo {
