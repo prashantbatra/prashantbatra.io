@@ -792,6 +792,17 @@ body.canvas-menu .nav-header {
     display: block;
     float: none;
   }
+	.logo span {
+	margin-top: 5px;
+	}
+.line {
+    margin-left: 16px;
+    height: 38.5px;
+}
+.line::after {
+    margin-top: 35.5px;
+    margin-left: -19px;
+}
   .front {
     height: 66.9rem ! important;    
     padding: 0px 2.5rem;
