@@ -11,6 +11,18 @@
     	border-bottom: 2px solid black;
 }
 
+.line::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: rgb(32, 32, 32);
+    right: 0px;
+    height: 0.3rem;
+    width: 0.3rem;
+    border-radius: 0.2rem;
+    transition: width 0.2s ease 0s, background 0.2s ease 0s;
+}
+
 .logo {
 	font-family: Vesterbro,Times,serif; 
 	perspective: 1000px; 
