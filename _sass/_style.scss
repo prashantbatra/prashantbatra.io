@@ -6,15 +6,19 @@
 
 .line{
 	margin-left: 14px;
-	width: 57px;
+	width: 48px;
     	height: 50px;
     	border-bottom: 2px dashed black;
 }
 
 .line::after {	
-	width: 20px;
-    	height: 50px;
-    	border-bottom: 2px solid black;
+	content: "";
+    	position: absolute;
+    	background: rgb(32, 32, 32);
+    	height: 0.3rem;
+    	margin-top: 48px;
+    	margin-left: -19px;
+    	width: 0.3rem;
 }
 
 .logo {
