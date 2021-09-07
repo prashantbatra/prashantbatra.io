@@ -21,6 +21,16 @@
     	width: 0.3rem;
 }
 
+.balanceC {
+	animation: balance 1.5s ease-out 4.8s;
+	transform-origin: bottom left;
+}	
+
+.balanceC:hover {
+	animation: balance 1.5s ease-out 4.8s;
+	transform-origin: bottom left;
+}
+
 .logo {
 	font-family: Vesterbro,Times,serif; 
 	perspective: 1000px; 
