@@ -308,6 +308,11 @@
   display: inline-block;
   position: relative;  
 }
+.dynamicIntroX {
+	display: inline-block;
+	position: relative;
+	margin-left:-14px;
+}
 
 .dynIF {
   display: inline-block;
@@ -786,6 +791,9 @@ body.canvas-menu .nav-header {
     padding: 0px 2.5rem;
     font-size: 3.2rem ! important;
   }
+	.dynamicIntroX {
+		margin-left:-5px;
+	}
   @-webkit-keyframes k-rotateFirstStatic{
   0% {
     transform: translateX(-35%);
