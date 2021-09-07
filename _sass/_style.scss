@@ -11,34 +11,6 @@
     	border-bottom: 2px solid black;
 }
 
-.line:hover {
-  animation: burger-hover 1s infinite;
-}
-
-@-webkit-keyframes burger-hover {
-  0% {
-    width: 57px;
-  }
-  50% {
-    width: 27px;
-  }
-  100% {
-    width: 57px;
-  }
-}
-
-@keyframes burger-hover {
-  0% {
-    width: 57px;
-  }
-  50% {
-    width: 27px;
-  }
-  100% {
-    width: 57px;
-  }
-}
-
 .logo {
 	font-family: Vesterbro,Times,serif; 
 	perspective: 1000px; 
