@@ -5,7 +5,7 @@
 }
 
 .line{
-	margin-left: 15px;
+	margin-left: 25px;
     	margin-top: 51px;
 	width: 44px;
     	height: 48.5px;
@@ -17,7 +17,7 @@
     	position: absolute;
     	background: rgb(32, 32, 32);
     	height: 0.3rem;    	
-    	margin-left: 47px;
+    	margin-left: 48px;
     	width: 0.3rem;
 }
 
@@ -801,12 +801,11 @@ body.canvas-menu .nav-header {
      margin-top: 7px;
  }
 .line {
-    margin-left: 16px;
+    margin-top: 37px;		
     height: 35.5px;
  }
-.line::after {
-    margin-top: 33.5px;
-    margin-left: -2px;
+.line::after {    
+    margin-left: 48px;
  }
  .front {
     height: 60.9rem ! important;    
