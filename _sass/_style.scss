@@ -280,20 +280,17 @@
 	  transform: translateY(2rem) rotate(4deg);
 	  -webkit-transform: translateY(2rem) rotate(4deg);
 	  opacity: 0;
-	  display:none;
     }
    25%,50%,75% {
 	  transform: translateY(2rem) rotate(4deg);
 	  -webkit-transform: translateY(2rem) rotate(4deg);
 	  opacity: 1;
-	   display:block;
     }
    100% {
 
 	   transform: translate(0px,0px);
 	   -webkit-transform: translate(0px,0px);
 	   opacity: 1;
-	   display:block;
     }
 }
 
@@ -303,21 +300,18 @@
 	  transform: translateY(2rem) rotate(4deg);
 	  -webkit-transform: translateY(2rem) rotate(4deg);
 	  opacity: 0;
-	  display:none;
     }
    25%,50%,75% {
  
 	  transform: translateY(2rem) rotate(4deg);
 	  -webkit-transform: translateY(2rem) rotate(4deg);
 	  opacity: 1;
-	   display:block;
     }
    100% {
 	  
 	   transform: translate(0px,0px);
 	   -webkit-transform: translate(0px,0px);
 	   opacity: 1;
-	   display:block;
     }
 }
 
