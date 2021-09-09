@@ -168,13 +168,13 @@
 
 @-webkit-keyframes k-rotateFirstStatic{
   0% {
-    transform: translateX(-42%);
-    -webkit-transform: translateX(-42%);
+    transform: translateX(-41%);
+    -webkit-transform: translateX(-41%);
     opacity: 0;
     }
   12.5%,25%,37.5%,50%,62.5%,75% {
-    transform: translateX(-42%);
-    -webkit-transform: translateX(-42%);
+    transform: translateX(-41%);
+    -webkit-transform: translateX(-41%);
     opacity: 1;
     }
   100% {
@@ -185,13 +185,13 @@
 }
 @keyframes k-rotateFirstStatic {
   0% {
-    transform: translateX(-42%);
-    -webkit-transform: translateX(-42%);
+    transform: translateX(-41%);
+    -webkit-transform: translateX(-41%);
     opacity: 0;
     }
   12.5%,25%,37.5%,50%,62.5%,75% {
-    transform: translateX(-42%);
-    -webkit-transform: translateX(-42%);
+    transform: translateX(-41%);
+    -webkit-transform: translateX(-41%);
     opacity: 1;
     }
   100% {
