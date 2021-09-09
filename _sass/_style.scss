@@ -272,15 +272,12 @@
 	  opacity: 0;
     }
    25%,50%,75% {
-	  display: block;
-	  position: relative;	  
 	  transform: translateY(2rem) rotate(4deg);
 	  -webkit-transform: translateY(2rem) rotate(4deg);
 	  opacity: 1;    
     }
    100% {
-	  display: block;
-	  position: relative;	  
+
 	   transform: translate(0px,0px);
 	   -webkit-transform: translate(0px,0px);
 	   opacity: 1;
@@ -295,15 +292,13 @@
 	  opacity: 0;
     }
    25%,50%,75% {
-	  display: block;
-	  position: relative;	  
+ 
 	  transform: translateY(2rem) rotate(4deg);
 	  -webkit-transform: translateY(2rem) rotate(4deg);
 	  opacity: 1;    
     }
    100% {
-	  display: block;
-	  position: relative;	  
+	  
 	   transform: translate(0px,0px);
 	   -webkit-transform: translate(0px,0px);
 	   opacity: 1;
