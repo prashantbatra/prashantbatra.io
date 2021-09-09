@@ -241,7 +241,7 @@
   0% {
     transform: translateY(2rem) rotate(4deg);
     -webkit-transform: translateY(2rem) rotate(4deg);
-    opacity: 0;
+    opacity: 1;
     }
   100% {
     transform: translate(0px,0px);
@@ -255,7 +255,7 @@
   0% {
     transform: translateY(2rem) rotate(4deg);
     -webkit-transform: translateY(2rem) rotate(4deg);
-    opacity: 0;
+    opacity: 1;
     }
   100% {
     transform: translate(0px,0px);
@@ -269,7 +269,7 @@
   0% {
 	  transform: translateY(2rem) rotate(4deg);
 	  -webkit-transform: translateY(2rem) rotate(4deg);
-	  opacity: 0;
+	  opacity: 1;
     }
    25%,50%,75% {
 	  transform: translateY(2rem) rotate(4deg);
@@ -289,7 +289,7 @@
   0% {
 	  transform: translateY(2rem) rotate(4deg);
 	  -webkit-transform: translateY(2rem) rotate(4deg);
-	  opacity: 0;
+	  opacity: 1;
     }
    25%,50%,75% {
  
@@ -309,6 +309,7 @@
   display: block;
   position: relative;
   transform-origin: 0% 50%;
+  opacity:0;
 } 
 
 .dynamicIntro {
