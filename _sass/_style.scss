@@ -326,17 +326,20 @@
 .dynamicIntro {
   display: inline-block;
   position: relative;  
+  opacity:0;
 }
 .dynamicIntroX {
 	display: inline-block;
 	position: relative;
 	margin-left:-14px;
+	opacity:0;
 }
 
 .dynIF {
   display: inline-block;
   position: relative;
-  transform-origin: 0% 50%;
+  transform-origin: 0% 50%; 
+  opacity:0;
 }
 
 // Up Arrow Swipe
