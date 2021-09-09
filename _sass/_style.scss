@@ -241,8 +241,15 @@
   0% {
     transform: translateY(2rem) rotate(4deg);
     -webkit-transform: translateY(2rem) rotate(4deg);
-    opacity: 1;
+    opacity: 0;
+    display: none;	  	  
     }
+  1% {
+    transform: translateY(2rem) rotate(4deg);
+    -webkit-transform: translateY(2rem) rotate(4deg);
+    opacity: 1;
+    display: block;	  	  
+    }	
   100% {
     transform: translate(0px,0px);
     -webkit-transform: translate(0px,0px);
@@ -251,12 +258,19 @@
 }
 
 
-@keyframes k-rotateSecond {
+@keyframes k-rotateSecond {	    
   0% {
     transform: translateY(2rem) rotate(4deg);
     -webkit-transform: translateY(2rem) rotate(4deg);
-    opacity: 1;
+    opacity: 0;
+    display: none;	  	  
     }
+  1% {
+    transform: translateY(2rem) rotate(4deg);
+    -webkit-transform: translateY(2rem) rotate(4deg);
+    opacity: 1;
+    display: block;	  	  
+    }	
   100% {
     transform: translate(0px,0px);
     -webkit-transform: translate(0px,0px);
@@ -309,7 +323,6 @@
   display: block;
   position: relative;
   transform-origin: 0% 50%;
-  opacity:0;
 } 
 
 .dynamicIntro {
