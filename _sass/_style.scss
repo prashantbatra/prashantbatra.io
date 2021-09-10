@@ -330,12 +330,14 @@
   position: relative;  
   opacity:0;
 }
-.dynamicIntroX {
+.dynamicIntro:span:nth-child(1):span:nth-child(2+n) {margin-left:-15px }
+
+/*.dynamicIntroX {
 	display: inline-block;
 	position: relative;
 	margin-left:-14px;
 	opacity:0;
-}
+}*/
 
 .dynIF {
   display: inline-block;
