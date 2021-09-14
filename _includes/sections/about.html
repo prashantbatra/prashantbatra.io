@@ -1,15 +1,11 @@
 <script>
 	var _movingElements = [];
 	var _scrollPercent = 0;
-	var _jsPrefix  = pre.lowercase;
-	cosole.log("fine");
-	if(_jsPrefix == 'moz') _jsPrefix = 'Moz';
-	cosole.log("fine3");
-	var _cssPrefix = pre.css;
-	cosole.log("fine4");
+	var _jsPrefix  = pre.lowercase;	
+	if(_jsPrefix == 'moz') _jsPrefix = 'Moz';	
+	var _cssPrefix = pre.css;	
 	var _positions = [
-
-  	{
+	{
     		name: 'scroll-joey', 
    		start: {
     			percent: 0.02, x: 0.8, y: 0.01
@@ -19,7 +15,7 @@
     		}
   	}
 	]
-	cosole.log("REZIS");
+	
 
 resize();
 initMovingElements();
