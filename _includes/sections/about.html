@@ -1,12 +1,11 @@
 <script>
 var _containerHeight = 4000;
-var _width, _height, _scrollHeight;
+var _width, _height, _scrollHeight,_scrollOffset;
 var _movingElements = [];
 var _scrollPercent = 0;
 var pre = prefix();
 var _jsPrefix  = pre.lowercase;
 if(_jsPrefix == 'moz') _jsPrefix = 'Moz';
-var _cssPrefix = pre.css;
 var _positions = [
   {
     name: 'scroll-joey', 
@@ -17,7 +16,7 @@ var _positions = [
       percent: 0.5, x: 0.2, y: 0.50
     }
   }
-]
+];
 
 resize();
 initMovingElements();
@@ -28,7 +27,7 @@ function initMovingElements() {
       percent: _positions[i].end.percent - _positions[i].start.percent,
       x: _positions[i].end.x - _positions[i].start.x,
       y: _positions[i].end.y - _positions[i].start.y,
-    }
+    };
     _positions[i].target = {};
     _positions[i].current = {};
     var el = document.getElementsByClassName('boy '+_positions[i].name)[0];
@@ -99,8 +98,7 @@ function prefix() {
     css: '-' + pre + '-',
     js: pre[0].toUpperCase() + pre.substr(1)
   };
-}
-</script>
+}</script>
 
 <div class="container" id="i18_about_me" style="background-color:#fcde67;width:100%">
     <div class="row m-b-lg">
