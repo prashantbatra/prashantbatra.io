@@ -4,6 +4,23 @@
   }
 }
 
+
+.scroll-image-container {
+  height: 4000px;
+  overflow: hidden;
+}
+
+.scroll-boy {
+  display: block;
+  position: absolute;
+}
+
+.scroll-joey {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/joey.png);
+  width: 300px;
+  height: 418px;
+}
+
 .section {
   text-align: center;
   position: absolute;
