@@ -85,7 +85,7 @@
 	    <div class="scroll-boy scroll-joey">	    
 		    <script>
 			    var position = 50;
-			    var img = $("#scroll-joey");
+			    var img = document.getElementsByClassName('scroll-joey');
 			    var scrollPercent;
 			    var percent = "%";  
 			    var scrollPos;
@@ -99,7 +99,8 @@
 				    var pctScrolled = Math.floor(s / length * 100);
 				    his.oldScroll = this.scrollY;
 				    calculatePosition(pctScrolled, scrollPosition);
-				    img.css({left: position + percent }); });
+				    img.style["left"] =  position + percent;
+			    });
 			    var scrolldown = true;
 			    function calculatePosition(s, scrollPosition) {
 				    if (s < 33) {
