@@ -86,6 +86,7 @@
 		    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		    <script>
 			    $(document).ready(function () {
+				    if (window.location.pathname == '/about.html') {
 				    console.log(window.location.pathname);
 				    var position = 50;
 				    var img = $("#scroll-joey");
@@ -118,6 +119,7 @@
 					    }
 					    console.log(" scrollPos:" + bscrollPos + " " + " scrollY:" + bscrollY + " " + " s:" + s + " position:" + position + " " + " d:" + d + " c:" + c + " pctScrolled:");
 					    return position;
+				    }
 				    }
 			    });
 		    </script> 
