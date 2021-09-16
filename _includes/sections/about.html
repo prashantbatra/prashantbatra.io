@@ -88,13 +88,11 @@
 			    var onScroll = (function(){
 				    var startPos;
 				    function run(){
-					    var fromTop = window.pageYOffset, 
-						rect = elm.getBoundingClientRect(),
-						scrollDelta;
+					    var fromTop = window.pageYOffset,rect = elm.getBoundingClientRect(),scrollDelta;
 					    // check if element is in viewport
-					    if( (rect.top - window.innerHeight) <= 0 && rect.bottom > 0 )
+					    if( (rect.top - window.innerHeight) <= 0 && rect.bottom > 0 ) {
 						    startPos = startPos === undefined ? fromTop : startPos;
-					    else{
+					    }else{
 						    startPos = 0;
 						    return;
 					    }
