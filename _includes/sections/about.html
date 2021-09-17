@@ -102,9 +102,8 @@
 				    if((scrollPos + viewPortHeight) >  elementScrollPos) {
 					    console.log("Inside");
 					    let moveVal = (scrollPos + viewPortHeight - elementScrollPos) * mult;
-					    if($(el).hasClass('move-left')) {
-						    $(el).find('.move').css({left: -350 + Math.min(350, moveVal)});
-					    }
+					    var curr = el.style.left;
+					    el.style.left = curr + moveVal;					    
 				    }
 			    }
 		    </script> 
