@@ -90,10 +90,10 @@
 				    calcPositionOnViewPort(0.8);
 			    });
 			    function calcPositionOnViewPort(mult) {
-				    el = document.getElementsByClassName('scroll-joey');
+				    el = document.getElementsByClassName('scroll-joey')[0];
 				    let scrollPos = $(document).scrollTop();  
 				    let viewPortHeight = $(window).height();
-				    let elementScrollPos = el[0].offsetTop;
+				    let elementScrollPos = el.offsetTop;
 				    console.log("scroll pos");
 				    console.log(scrollPos);
 				    console.log("viewport");
