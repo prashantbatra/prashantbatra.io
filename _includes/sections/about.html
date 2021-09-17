@@ -103,8 +103,10 @@
 				    if((scrollPos + viewPortHeight) >  elementScrollPos) {
 					    console.log("Inside");
 					    let moveVal = (scrollPos + viewPortHeight - elementScrollPos) * mult;
+					    console.log("MOVE VAL" + moveVal);
 					    var curr = el.style.left;
-					    el.style.left = curr + moveVal;					    
+					    el.style.left = curr + moveVal;	
+					    console.log("curr" + curr);
 				    }
 			    }
 		    </script> 
