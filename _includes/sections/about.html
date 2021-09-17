@@ -87,12 +87,13 @@
 			    $(window).on('scroll', function () {
 				    let height = $('body').height();
 				    let scroll = $(document).scrollTop();
-				    calcPositionOnViewPort($('.scroll-joey'), 0.8);
+				    calcPositionOnViewPort(0.8);
 			    });
-			    function calcPositionOnViewPort(el, mult) {
+			    function calcPositionOnViewPort(mult) {
+				    el = document.getElementsByClassName('scroll-joey');
 				    let scrollPos = $(document).scrollTop();  
 				    let viewPortHeight = $(window).height();
-				    let elementScrollPos = $(el).offset().top;
+				    let elementScrollPos = el.offset().top;
 				    console.log("scroll pos");
 				    console.log(scrollPos);
 				    console.log("viewport");
@@ -103,7 +104,7 @@
 					    console.log("Inside");
 					    let moveVal = (scrollPos + viewPortHeight - elementScrollPos) * mult;
 					    var curr = el.style.left;
-					    $(el).style.left = curr + moveVal;					    
+					    el.style.left = curr + moveVal;					    
 				    }
 			    }
 		    </script> 
