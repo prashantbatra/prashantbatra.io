@@ -84,27 +84,22 @@
 	<div class="scroll-image-container">
 	    <div class="scroll-boy scroll-joey">	    
 		    <script>
-			    var elm = document.getElementsByClassName('scroll-joey');
-			    var onScroll = (function(){
-				    var startPos;
-				    function run(){
-					    var fromTop = window.pageYOffset,rect = elm.getBoundingClientRect(),scrollDelta;
-					    // check if element is in viewport
-					    if( (rect.top - window.innerHeight) <= 0 && rect.bottom > 0 ) {
-						    startPos = startPos === undefined ? fromTop : startPos;
-					    }else{
-						    startPos = 0;
-						    return;
+			    $(window).on('scroll', function () {
+				    let height = $('body').height();
+				    let scroll = $(document).scrollTop();
+				    calcPositionOnViewPort($('.scroll-joey'), 0.8);
+			    });
+			    function calcPositionOnViewPort(el, mult) {
+				    let scrollPos = $(document).scrollTop();  
+				    let viewPortHeight = $(window).height();
+				    let elementScrollPos = $(el).offset().top;
+				    if((scrollPos + viewPortHeight) >  elementScrollPos) {
+					    let moveVal = (scrollPos + viewPortHeight - elementScrollPos) * mult;
+					    if($(el).hasClass('move-left')) {
+						    $(el).find('.move').css({left: -350 + Math.min(350, moveVal)});
 					    }
-					    scrollDelta = (fromTop - startPos) * 1; // "speed" per scrolled frame
-					    elm.style.transform = `translateX(${scrollDelta}px) rotate(${scrollDelta}deg)`;
-					    console.clear();
-					    console.log(scrollDelta);
 				    }
-				    run();
-				    return run;
-			    };)();
-			    window.addEventListener('scroll', onScroll);
+			    }
 		    </script> 
 		</div>
 	</div>
