@@ -93,7 +93,14 @@
 				    let scrollPos = $(document).scrollTop();  
 				    let viewPortHeight = $(window).height();
 				    let elementScrollPos = $(el).offset().top;
+				    console.log("scroll pos");
+				    console.log(scrollPos);
+				    console.log("viewport");
+				    console.log(viewportHeight);
+				    console.log("elementscrollpos");
+				    console.log(elmentScrollPos);
 				    if((scrollPos + viewPortHeight) >  elementScrollPos) {
+					    console.log("Inside");
 					    let moveVal = (scrollPos + viewPortHeight - elementScrollPos) * mult;
 					    if($(el).hasClass('move-left')) {
 						    $(el).find('.move').css({left: -350 + Math.min(350, moveVal)});
