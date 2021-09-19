@@ -1,6 +1,46 @@
 
 
 <div class="container" id="i18_about_me" style="background-color:#fcde67;width:100%">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TimelineMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"</script>
+	<script>
+		console.clear();
+		const threshold = 0.7; 
+		console.log("object");
+		const options = {root: null,rootMargin: '0px',threshold: 0.7};
+		console.log("animation handler");
+		const observer = new IntersectionObserver(animHandler, options);
+		const targets = document.querySelectorAll("section");
+		console.log("Tearget s " + targets);
+		const ar = [].slice.call(targets); 
+		console.log("ar " + ar);
+		let animations = [];
+		let count = 0;
+		for (let target of ar) {
+			animations[count] = new TimelineMax({paused:true});  
+			observer.observe(target);
+			count++;
+		}
+		
+		
+		animations[1].to("#apple",1, {scale:1.4, ease: Sine.easeOut});
+			animations[2].to("#apple",2, {scale:0.4, ease: Sine.easeOut}).to('#small',1,{scale:0.5, transformOrigin:"center"},0);
+			animations[3].to("#apple",1, {rotation:360, ease: Sine.easeOut});
+			
+			function animHandler(targets, observer) {
+				for (var entry of targets) {
+					let i = ar.indexOf(entry.target);
+					if (entry.isIntersecting) {
+						animations.forEach(tl => tl.pause(0));
+						animations[i].play();
+					} else {
+						animations[i].reverse();
+					}
+				}
+			}
+		</script>
+	
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
@@ -102,44 +142,5 @@
 			<img id="apple" src="/static/assets/img/landing/About.png" style="height:59rem;">
 		</div>
 	</div>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TimelineMax.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"</script>
-	<script>
-		console.clear();
-		const threshold = 0.7; 
-		console.log("object");
-		const options = {root: null,rootMargin: '0px',threshold: 0.7};
-		console.log("animation handler");
-		const observer = new IntersectionObserver(animHandler, options);
-		const targets = document.querySelectorAll("section");
-		console.log("Tearget s " + targets);
-		const ar = [].slice.call(targets); 
-		console.log("ar " + ar);
-		let animations = [];
-		let count = 0;
-		for (let target of ar) {
-			animations[count] = new TimelineMax({paused:true});  
-			observer.observe(target);
-			count++;
-		}
-		
-		
-		animations[1].to("#apple",1, {scale:1.4, ease: Sine.easeOut});
-			animations[2].to("#apple",2, {scale:0.4, ease: Sine.easeOut}).to('#small',1,{scale:0.5, transformOrigin:"center"},0);
-			animations[3].to("#apple",1, {rotation:360, ease: Sine.easeOut});
-			
-			function animHandler(targets, observer) {
-				for (var entry of targets) {
-					let i = ar.indexOf(entry.target);
-					if (entry.isIntersecting) {
-						animations.forEach(tl => tl.pause(0));
-						animations[i].play();
-					} else {
-						animations[i].reverse();
-					}
-				}
-			}
-		</script>
-	
+
 </div>
