@@ -122,11 +122,8 @@
 		
 			console.log("Zep");
 			const threshold = 0.7; // trigger
-			const options = {
-				root: null,
-				rootMargin: '0px',
-				threshold: threshold
-			};
+			console.log("object");
+			const options = {root: null,rootMargin: '0px',threshold: 0.7};
 			console.log("animation handler");
 			const observer = new IntersectionObserver(animHandler, options);
 			const targets = document.querySelectorAll("section");
