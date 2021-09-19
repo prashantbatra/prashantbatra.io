@@ -106,7 +106,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"</script>
 	<script>
-		const threshold = 0.7; // trigger
+		const threshold = 0.7; 
 		console.log("object");
 		const options = {root: null,rootMargin: '0px',threshold: 0.7};
 		console.log("animation handler");
@@ -122,12 +122,12 @@
 			observer.observe(target);
 			count++;
 		}
-		// timeline for each section
+		
 		animations[0]
 		animations[1].to("#apple",1, {scale:1.4, ease: Sine.easeOut});
 			animations[2].to("#apple",2, {scale:0.4, ease: Sine.easeOut}).to('#small',1,{scale:0.5, transformOrigin:"center"},0);
 			animations[3].to("#apple",1, {rotation:360, ease: Sine.easeOut});
-			// observer handler
+			
 			function animHandler(targets, observer) {
 				for (var entry of targets) {
 					let i = ar.indexOf(entry.target);
@@ -135,7 +135,6 @@
 						animations.forEach(tl => tl.pause(0));
 						animations[i].play();
 					} else {
-						//return;
 						animations[i].reverse();
 					}
 				}
