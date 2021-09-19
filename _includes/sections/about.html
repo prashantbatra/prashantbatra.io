@@ -119,7 +119,7 @@
 		</div>
 	
 	<script>
-			debugger;
+		
 			console.log("Zep");
 			const threshold = 0.7; // trigger
 			const options = {
@@ -127,6 +127,7 @@
 				rootMargin: '0px',
 				threshold: threshold
 			};
+			console.log("animation handler");
 			const observer = new IntersectionObserver(animHandler, options);
 			const targets = document.querySelectorAll("section");
 			console.log("Tearget s " + targets);
