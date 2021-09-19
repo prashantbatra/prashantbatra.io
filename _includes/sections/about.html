@@ -93,52 +93,36 @@
 	<div style="text-align: center;">
         	<img src="/static/assets/img/landing/About.png" style="max-width: 100%;max-height: 59rem;box-shadow: 0px 19px 10px -13px black">
 	</div>-->
-
 	<div>
-		
-	
-		<section id="one">
-  
-</section>
-
-<section id="two">
-  <h2 id="haha">I´m an APPLE!</h1>
-</section>
-
-<section id="three">
-  <h2 id="small">A small one.</h1>
-</section>
-
-<section id="four">
-  <h2>See you!</h1>
-</section>
-
-	<div style="width:100%;display: flex;align-items: center;justify-content: center;z-index:1;">
-                <img id="apple" src="/static/assets/img/landing/About.png" style="height:59rem;">
-        </div>
+		<section id="one"></section>
+		<section id="two"><h2 id="haha">I´m an APPLE!</h1></section>
+		<section id="three"><h2 id="small">A small one.</h1></section>
+		<section id="four"><h2>See you!</h1></section>
+		<div style="width:100%;display: flex;align-items: center;justify-content: center;z-index:1;">
+			<img id="apple" src="/static/assets/img/landing/About.png" style="height:59rem;">
 		</div>
-	
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TimelineMax.min.js"></script>
 	<script>
-		
-			const threshold = 0.7; // trigger
-			console.log("object");
-			const options = {root: null,rootMargin: '0px',threshold: 0.7};
-			console.log("animation handler");
-			const observer = new IntersectionObserver(animHandler, options);
-			const targets = document.querySelectorAll("section");
-			console.log("Tearget s " + targets);
-			const ar = [].slice.call(targets); 
-			console.log("ar " + ar);
-			let animations = [];
-			let count = 0;
-			for (let target of ar) {
-				animations[count] = new TimelineMax({paused:true});  
-				observer.observe(target);
-				count++;
-			}
-			// timeline for each section
-			animations[0]
-			animations[1].to("#apple",1, {scale:1.4, ease: Sine.easeOut});
+		const threshold = 0.7; // trigger
+		console.log("object");
+		const options = {root: null,rootMargin: '0px',threshold: 0.7};
+		console.log("animation handler");
+		const observer = new IntersectionObserver(animHandler, options);
+		const targets = document.querySelectorAll("section");
+		console.log("Tearget s " + targets);
+		const ar = [].slice.call(targets); 
+		console.log("ar " + ar);
+		let animations = [];
+		let count = 0;
+		for (let target of ar) {
+			animations[count] = new TimelineMax({paused:true});  
+			observer.observe(target);
+			count++;
+		}
+		// timeline for each section
+		animations[0]
+		animations[1].to("#apple",1, {scale:1.4, ease: Sine.easeOut});
 			animations[2].to("#apple",2, {scale:0.4, ease: Sine.easeOut}).to('#small',1,{scale:0.5, transformOrigin:"center"},0);
 			animations[3].to("#apple",1, {rotation:360, ease: Sine.easeOut});
 			// observer handler
