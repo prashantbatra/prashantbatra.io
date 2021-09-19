@@ -129,7 +129,9 @@
 			};
 			const observer = new IntersectionObserver(animHandler, options);
 			const targets = document.querySelectorAll("section");
+			console.log("Tearget s " + targets);
 			const ar = [].slice.call(targets); 
+			console.log("ar " + ar);
 			let animations = [];
 			let count = 0;
 			for (let target of ar) {
