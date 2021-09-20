@@ -96,8 +96,11 @@
 
 <script>
 		console.clear();
-		const threshold = 0.6; 		
-		const effects = document.querySelectorAll("#effectApple");
+		const threshold = 0.6; 	
+	console.log(threshold);
+		const effects = document.querySelector("#effectApple");
+	
+	console.log(effects);
 		const options = {root:effects,rootMargin: '0px',threshold: threshold};
 		console.log("animation handler");
 		const observer = new IntersectionObserver(animHandler, options);
