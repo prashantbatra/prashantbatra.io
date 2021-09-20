@@ -127,6 +127,10 @@
 </section>
 </div>
 <script>
+	
+	function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 		console.clear();
 		const threshold = 0.7;
 		
@@ -147,9 +151,10 @@
 		}	
 		
 animations[0].to("#apple",1, {scale:1.4, ease: Sine.easeOut});
-
+ await sleep(2000);
 animations[0].to("#apple",2, {scale:0.4, ease: Sine.easeOut})
   .to('#small',1,{scale:0.5, transformOrigin:"center"},0);
+	 await sleep(2000);
 
 animations[0].to("#apple",1, {rotation:360, ease: Sine.easeOut});
 			
