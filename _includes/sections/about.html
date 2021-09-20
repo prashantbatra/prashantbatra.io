@@ -115,9 +115,14 @@
 		}
 		
 		
-		animations[1].to("#apple",1, {scale:1.4, ease: Sine.easeOut});
-			animations[2].to("#apple",2, {scale:0.4, ease: Sine.easeOut}).to('#small',1,{scale:0.5, transformOrigin:"center"},0);
-			animations[3].to("#apple",1, {rotation:360, ease: Sine.easeOut});
+		animations[1]
+
+animations[2].to("#apple",1, {scale:1.4, ease: Sine.easeOut});
+
+animations[3].to("#apple",2, {scale:0.4, ease: Sine.easeOut})
+  .to('#small',1,{scale:0.5, transformOrigin:"center"},0);
+
+animations[4].to("#apple",1, {rotation:360, ease: Sine.easeOut});
 			
 			function animHandler(targets, observer) {
 				for (var entry of targets) {
