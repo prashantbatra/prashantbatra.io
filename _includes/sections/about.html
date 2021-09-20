@@ -28,9 +28,9 @@
 
 <script>
 		console.clear();
-		const threshold = 0.7; 
+		const threshold = 0.3; 
 		console.log("object");
-		const options = {root: null,rootMargin: '0px',threshold: 0.7};
+		const options = {root: null,rootMargin: '0px',threshold: threshold};
 		console.log("animation handler");
 		const observer = new IntersectionObserver(animHandler, options);
 		const targets = document.querySelectorAll("section");
