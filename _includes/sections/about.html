@@ -41,6 +41,7 @@
 		let count = 0;
 		for (let target of ar) {
 			animations[count] = new TimelineMax({paused:true});  
+			 console.log(target.id);
 			observer.observe(target);
 			count++;
 		}
