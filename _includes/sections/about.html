@@ -71,7 +71,7 @@
 }
 
 </style>
-
+<div id="effectApple">
 <div id="wrapApple">
      <img id="apple" src='/static/assets/img/landing/About.png' alt=''>
 </div>
@@ -92,12 +92,13 @@
 <section id="four">
   <h2>See you!</h1>
 </section>
+</div>
 
 <script>
 		console.clear();
-		const threshold = 0.8; 
-		console.log(document.querySelector('#wrapApple'));
-		const options = {root:null,rootMargin: '0px',threshold: threshold};
+		const threshold = 0.6; 
+		console.log(document.querySelector('#effectApple'));
+		const options = {root:document.querySelector('#effectApple'),rootMargin: '0px',threshold: threshold};
 		console.log("animation handler");
 		const observer = new IntersectionObserver(animHandler, options);
 		const targets = document.querySelectorAll("section");
