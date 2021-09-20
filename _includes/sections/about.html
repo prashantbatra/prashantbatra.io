@@ -30,7 +30,7 @@
 		console.clear();
 		const threshold = 0.3; 
 		console.log("object");
-		const options = {root: document.querySelector('#wrapApple');,rootMargin: '0px',threshold: threshold};
+		const options = {root: document.querySelector('#wrapApple'),rootMargin: '0px',threshold: threshold};
 		console.log("animation handler");
 		const observer = new IntersectionObserver(animHandler, options);
 		const targets = document.querySelectorAll("section");
