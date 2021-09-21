@@ -117,7 +117,7 @@
 				<img src="/static/assets/img/landing/About.png" alt="after">
 			</div>
 		</div>
-	</div>
+	
 	<script>
 			gsap.utils.toArray(".comparisonSection").forEach(section => {
 				let tl = gsap.timeline(
@@ -136,5 +136,6 @@
 				);
 				tl.fromTo(section.querySelector(".afterImage"), { xPercent: 100, x: 0}, {xPercent: 0}).fromTo(section.querySelector(".afterImage img"), {xPercent: -100, x: 0}, {xPercent: 0}, 0);});
 	</script>
+		</div>
 
 </div>
