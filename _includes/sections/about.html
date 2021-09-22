@@ -93,6 +93,8 @@
 	<div style="text-align: center;">
         	<img src="/static/assets/img/landing/About.png" style="max-width: 100%;max-height: 59rem;box-shadow: 0px 19px 10px -13px black">
 	</div>-->
+	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426"></script>
+	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js?v=3.3"</script>
 	<div class="row">
         		<div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
 				<p><span data-i18n="about_me.des1" style="color: black;">{{ site.author.desc1 }}</span></p>
@@ -114,8 +116,7 @@
 			</div>
 		</section>	
 	
-	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426"></script>
-	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js?v=3.3"</script>
+
 	<script>
 			gsap.utils.toArray(".comparisonSection").forEach(section => {
 				let tl = gsap.timeline(
