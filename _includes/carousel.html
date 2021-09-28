@@ -62,6 +62,7 @@
 					.to(fingernail1, .4, {ease: Quad.easeOut}, ".25")
 					.to(fingernail2, .4, {ease: Quad.easeOut}, ".25");
 				time = TL.duration();
+				console.log("thirdrow " + thirdrow.getBoundingClientRect().right);
 				TL
 					.to(handSVG, .5, {x: thirdrow.getBoundingClientRect().right, ease: Quad.easeInOut}, time)					
 					.to(fingerBG, .4, {ease: Quad.easeOut}, time + .6)
