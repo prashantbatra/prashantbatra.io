@@ -13,8 +13,11 @@ body {
 
 #hand {
 	width: 350px; height: 450px; box-sizing: border-box;
-	position: absolute; bottom: 0; right: 0; 
-	pointer-events: none;		
+	position: absolute; 
+	bottom: 0; 
+	right: 0; 
+	pointer-events: none;
+	transform: scaleX(-1);
 }
 
 .comparisonSection {
