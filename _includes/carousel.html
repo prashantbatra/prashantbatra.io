@@ -64,9 +64,11 @@
 				time = TL.duration();
 				console.log("thirdrow " + thirdrow.getBoundingClientRect().left);
 				console.log("thirdrow " + thirdrow.innerText.length);
+				var len = thirdrow.getBoundingClientRect().left + thirdrow.innerText.length;
+				console.log("length " + len);
 				
 				TL
-					.to(handSVG, .5, {x: thirdrow.getBoundingClientRect().left + thirdrow.innerText.length, ease: Quad.easeInOut}, time)					
+					.to(handSVG, .5, {x: len, ease: Quad.easeInOut}, time)					
 					.to(fingerBG, .4, {ease: Quad.easeOut}, time + .6)
 					.to(fingerBorder, .4, { ease: Quad.easeOut}, time + .6)
 					.to(fingernail1, .4, { ease: Quad.easeOut}, time + .6)
