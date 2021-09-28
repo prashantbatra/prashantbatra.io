@@ -26,6 +26,38 @@
 				  	<path id="finger-border" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="5" d="M195 93c-1.2-11.3.6-22.6 4.9-32.6 4.3-10 11.1-19.1 20.4-25.6 4.6-3.2 10-5.8 15.8-7.2 5.8-1.4 12-1.6 17.8-.5 6.4 1.2 10.6 7.4 9.3 13.8-1.1 5.8-6.3 9.7-12 9.5h-.8c-5-.2-9.7 1.8-13.8 5.6-4.1 3.8-7.2 9.2-8.8 14.9-1.6 5.7-1.6 11.7-.3 17.1 1.3 5.4 4.2 10.3 8 14.6 4.5 5 13.7 10.3 19 11.6 5.3 1.3 10.6 1.3 15.8-.2 5.1-1.5 10-4.6 14-8.8 4-4.2 6.9-9.6 8.3-15.2l.2-.7c1.5-6.4 7.9-10.3 14.3-8.8 5.8 1.4 9.6 6.9 9.1 12.7-1 10.4-4.8 20.2-10.7 28.6-5.9 8.4-14.2 15.5-24 20-7.5 3.5-15.9 5.3-24.2 5.4"/>
         			</g>
       			</svg>
+			
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>			
+			<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/findShapeIndex.js"></script>
+      			<script>
+				var handSVG = document.getElementById('hand'),
+				    fingerBG = document.getElementById('finger-bg'),
+				    fingerBorder = document.getElementById('finger-border'),
+				    fingernail1 = document.getElementById('fingernail-1'),
+				    fingernail2 = document.getElementById('fingernail-2'),
+				    thirdrow = document.getElementById('third-row'),
+				    numLinks, curLink,svgRect, yDest, yDistance,
+				    TL,fingerBGB = "M320.8,119c-1-6.5-7-10.9-13.5-9.9l-0.1,0c-6.2,0.9-12.3,1.8-18.3,2.4c-6,0.6-11.8,1-17.6,1 c-5.8,0-11.6,0.1-17.4-0.9c-8-1.4-13.6-5.4-17.4-11c-3.1-4.5-5.1-10-6.3-15.9c-1-4.6-1.5-9.4-1.8-14.1c-0.4-6.4,0-12.8,1.5-19.1 c1.5-6.3,4.2-12.6,7.7-18.6l0.1-0.2c2.9-5,1.8-11.5-2.9-15.1c-5.1-4-12.4-3.1-16.4,2c-2.2,2.8-4.2,5.7-6.1,8.7 c-2.9,4.7-5.5,9.6-7.5,14.9c-3.4,8.7-5.5,18.1-5.9,27.5c-0.5,9.4,0.5,18.8,2.4,27.7c1.9,8.9,4.7,17.4,8.1,25.6l0,0.1 c0.3,0.7,0.6,1.4,1,2c1.5,2.7,3.6,4.8,6.1,6.4c2.3,7.2,17.1,12.4,17.1,12.4c6.7,0,13.4-0.1,20.2-0.5c6.8-0.4,13.6-1.1,20.4-2.3 c6.8-1.1,13.5-2.6,19.9-4.4c6.4-1.7,12.6-3.7,18.7-5.6C318.2,130.3,321.7,124.8,320.8,119z",
+				    fingerBorderB = "M257.9 144.9c4.8-.4 11.5-2 16.3-2.8 6.8-1.1 13.5-2.6 19.9-4.4 6.4-1.7 12.6-3.7 18.7-5.6 5.4-1.7 9-7.2 8.1-13-1-6.5-7-10.9-13.5-9.9h-.1c-6.2.9-12.3 1.8-18.3 2.4-6 .6-11.8 1-17.6 1-5.8 0-11.6.1-17.4-.9-9.8-1.7-15.9-7.3-19.7-14.9-2.1-4.2-3.6-9.1-4.5-14.1-.7-3.9-1.2-8-1.4-12-.4-6.4 0-12.8 1.5-19.1 1.5-6.3 4.2-12.6 7.7-18.6l.1-.2c2.9-5 1.8-11.5-2.9-15.1-5.1-4-12.4-3.1-16.4 2-1.4 1.7-2.7 3.5-4 5.4-3.8 5.6-7.1 11.7-9.7 18.2-3.4 8.7-5.5 18.1-5.9 27.5-.4 7.1.1 14.1 1.1 20.9",
+				    fingernail2B = "M229.6 17.5l-5.8 11.2c-.6 1.1-1.9 1.5-2.9.9l-2.5-1.3c-1.1-.6-1.5-1.9-.9-2.9l2.7-5.2c1.8-3.4 6-4.7 9.3-2.9.1 0 .1.1.1.2z",
+				    fingernail1B = "M303.2 128.9l-.4-1.7c-.5-2.3.9-4.5 3.1-5l12.3-2.8c1.2 5.2-2 10.3-7.2 11.5l-3.5.8c-1.9.4-3.9-.8-4.3-2.8z";
+				var time = 0;				
+				TL = new TimelineMax();
+				TL.set(handSVG, {scaleX:-1});   
+				TL
+					.to(handSVG, 1.5, {x: thirdrow.getBoundingClientRect().right, y: thirdrow.getBoundingClientRect().right, ease: Quad.easeOut}, 0)
+					.to(fingerBG, 1.6, {ease: Quad.easeOut}, 0.6)
+					.to(fingerBorder, 1.6, {ease: Quad.easeOut}, 0.6)
+					.to(fingernail1, 1.6, {ease: Quad.easeOut}, 0.6)
+					.to(fingernail2, 1.6, {ease: Quad.easeOut}, 0.6);
+					var time = TL.duration();
+					.to(handSVG, .5, {y: -44, ease: Quad.easeInOut}, time)					
+					.to(fingerBG, .4, {ease: Quad.easeOut}, time + .6)
+					.to(fingerBorder, .4, { ease: Quad.easeOut}, time + .6)
+					.to(fingernail1, .4, { ease: Quad.easeOut}, time + .6)
+					.to(fingernail2, .4, { ease: Quad.easeOut}, time + .6);
+				TL.play();
+			</script>
 			<h1 class="front">
 				<div>
 				<span class="introD" style="animation-name: k-rotateFirst;animation-duration: 0.0s;animation-iteration-count: 1;animation-timing-function: ease-out;-webkit-animation-fill-mode: forwards;-moz-animation-fill-mode: forwards;-ms-animation-fill-mode: forwards;-o-animation-fill-mode: forwards;animation-fill-mode: forwards;">
