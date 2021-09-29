@@ -1,6 +1,6 @@
-<div style="height: 100vh;">
-	<div id="inSlider" style="height: 100%;background: #65CCB8;">
-		<div >
+<div style="height: 100vh;overflow:hidden;">
+	<div id="inSlider" style="height: 100%;background: #65CCB8;overflow:hidden;">
+		<div style="overflow:hidden;">
 						<svg id="hand" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 450">
 				<path fill="#000000" d="M40.6 523C12.5 475.6-1 425.4.5 373.7c1.2-40.7 11.7-81.6 31.2-121.6 31.4-64.4 75.5-104.7 80.4-109.1l79.9 89.5.2-.2c-.3.3-32.9 30.3-54.1 75.4-25.5 54.2-23.6 104.6 5.7 154.1L40.6 523z"/>
 				<g id="fingers">
@@ -58,11 +58,12 @@
 				    fingernail1B = "M303.2 128.9l-.4-1.7c-.5-2.3.9-4.5 3.1-5l12.3-2.8c1.2 5.2-2 10.3-7.2 11.5l-3.5.8c-1.9.4-3.9-.8-4.3-2.8z";
 				var time = 0;				
 				TL = new TimelineMax();
-				TL.set(handSVG, {scaleX:-1});   
-				var yc = handSVG.getBoundingClientRect().right - thirdrow.getBoundingClientRect().top;
+				TL.set(handSVG, {scaleX:-1});
+				var yc = handSVG.getBoundingClientRect().top - thirdrow.getBoundingClientRect().top;
 				var xc = handSVG.getBoundingClientRect().right - thirdrow.getBoundingClientRect().right;
+				TL.set(handSVG, {x:-xc, y:-handSVG.getBoundingClientRect().top});   
 				TL
-					.to(handSVG, 1.5, {autoAlpha: 1, x: -xc, y: -yc, ease: Quad.easeOut}, 0)
+					.to(handSVG, 1.5, {autoAlpha: 1, y: -yc, ease: Quad.easeOut}, 0)
 					.to(fingerBG, 1.6, {ease: Quad.easeOut}, 0.6)
 					.to(fingerBorder, 1.6, {ease: Quad.easeOut}, 0.6)
 					.to(fingernail1, 1.6, {ease: Quad.easeOut}, 0.6)
