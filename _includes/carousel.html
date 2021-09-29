@@ -59,15 +59,16 @@
 				var time = 0;				
 				TL = new TimelineMax();
 				TL.set(handSVG, {scaleX:-1});   
+				var yc = thirdrow.getBoundingClientRect().top;
 				TL
-					.to(handSVG, 1.5, {autoAlpha: 1, x: thirdrow.getBoundingClientRect().right, y: thirdrow.getBoundingClientRect().top, ease: Quad.easeOut}, 0)
+					.to(handSVG, 1.5, {autoAlpha: 1, x: thirdrow.getBoundingClientRect().right, y: yc, ease: Quad.easeOut}, 0)
 					.to(fingerBG, 1.6, {ease: Quad.easeOut}, 0.6)
 					.to(fingerBorder, 1.6, {ease: Quad.easeOut}, 0.6)
 					.to(fingernail1, 1.6, {ease: Quad.easeOut}, 0.6)
 					.to(fingernail2, 1.6, {ease: Quad.easeOut}, 0.6);
 				var time = TL.duration();
 				TL
-					.to(handSVG, .5, {y: -9, ease: Quad.easeOut}, time)					
+					.to(handSVG, .5, {y: yc-9, ease: Quad.easeOut}, time)					
 					.to(fingerBG, .4, {ease: Quad.easeOut}, time + .6)
 					.to(fingerBorder, .4, { ease: Quad.easeOut}, time + .6)
 					.to(fingernail1, .4, { ease: Quad.easeOut}, time + .6)
