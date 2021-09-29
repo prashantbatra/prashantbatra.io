@@ -60,7 +60,7 @@
 				TL = new TimelineMax();
 				TL.set(handSVG, {scaleX:-1});   
 				var yc = handSVG.getBoundingClientRect().right - thirdrow.getBoundingClientRect().top;
-				var xc = handSVG.getBoundingClientRect().right - thirdrow.getBoundingClientRect().right
+				var xc = handSVG.getBoundingClientRect().right - thirdrow.getBoundingClientRect().right;
 				TL
 					.to(handSVG, 1.5, {autoAlpha: 1, x: -xc, y: -yc, ease: Quad.easeOut}, 0)
 					.to(fingerBG, 1.6, {ease: Quad.easeOut}, 0.6)
