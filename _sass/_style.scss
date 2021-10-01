@@ -54,19 +54,19 @@ body {
 	position: relative;
 }
 .page1H1 {
-	margin: 2rem 0px 0px;
-	display: inline-block;
-	font-family: Open Sans, serif;
-	font-weight: 700;
-	font-size: 3.2rem;
-	line-height: 1.3;
-	display: block;
-	color: rgb(32, 32, 32);
+	margin: 2rem 0px 0px !important;
+	display: inline-block !important;
+	font-family: 'Open Sans' !important;
+	font-weight: 700 !important;
+	font-size: 3.2rem !important;
+	line-height: 1.3 !important;
+	display: block !important;
+	color: rgb(32, 32, 32) !important;
 }
 @media (min-width: 768px) {
 	.page1H1 {
-		font-size: 7rem;
-		line-height: 1.2;		
+		font-size: 7rem !important;
+		line-height: 1.2 !important;
 	}
 }
 
