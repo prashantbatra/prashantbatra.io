@@ -483,13 +483,15 @@ body {
     -webkit-transform: translateX(-28.5%);*/
     opacity: 1;
     }
-  100% {
+  75%,99.9% {
     transform: translate(-2px,0px);
     -webkit-transform: translate(-2px,0px);
     opacity: 1;
-    
     }
-    0%,99.9%,100% {
+    99.9%,100% {
+    transform: translate(-2px,0px);
+    -webkit-transform: translate(-2px,0px);
+    opacity: 1;
     margin-left: -18px;
     }
 }
@@ -504,13 +506,15 @@ body {
     -webkit-transform: translateX(-28.5%);*/
     opacity: 1;
     }
-  100% {
+  75%,99.9% {
     transform: translate(-2px,0px);
     -webkit-transform: translate(-2px,0px);
     opacity: 1;
-    
-    }    
-    0%,99.9%,100% {
+    }
+    99.9%,100% {
+    transform: translate(-2px,0px);
+    -webkit-transform: translate(-2px,0px);
+    opacity: 1;
     margin-left: -18px;
     }
 }
