@@ -474,8 +474,8 @@ body {
 
 @-webkit-keyframes k-rotateFirstStatic{
   0% {
-    /*transform: translateX(-28.5%);
-    -webkit-transform: translateX(-28.5%);*/
+    transform: translateX(-28.5%);
+    -webkit-transform: translateX(-28.5%);
     opacity: 0;
     }
   12.5%,25%,37.5%,50%,62.5%,75% {
