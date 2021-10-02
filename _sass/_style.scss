@@ -469,9 +469,7 @@ body {
     -webkit-transform: translate(0px,0px);
     opacity: 1;
     }    
-    0%,99.9%,100% {
-    margin-left: -18px;
-    }
+
 }
 
 @-webkit-keyframes k-rotateFirstStatic{
@@ -511,6 +509,9 @@ body {
     -webkit-transform: translate(-2px,0px);
     opacity: 1;
     
+    }    
+    0%,99.9%,100% {
+    margin-left: -18px;
     }
 }
 
