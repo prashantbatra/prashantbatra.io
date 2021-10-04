@@ -483,10 +483,12 @@ body {
     -webkit-transform: translateX(-28.5%);
     opacity: 1;
     }
-  100% {
+  99.9% {
     transform: translate(-2px,0px);
     -webkit-transform: translate(-2px,0px);
-    opacity: 1;
+    opacity: 1;    
+    }
+    100% {
     margin-left:-19px;
     }
 }
@@ -501,13 +503,13 @@ body {
     -webkit-transform: translateX(-28.5%);
     opacity: 1;
     }
-  100% {
+  99.9% {
     transform: translate(-2px,0px);
     -webkit-transform: translate(-2px,0px);
-    opacity: 1;
+    opacity: 1;    
+    }
+    100% {
     margin-left:-19px;
-	   
-
     }
 }
 @-webkit-keyframes k-rotateFirstDynamic {
