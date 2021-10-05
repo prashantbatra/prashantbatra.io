@@ -81,14 +81,39 @@ body {
 	left: 100vw;
 }
 
+.page1D6 {
+    transform-origin: 20% 0px;
+    transform: scaleX(-0.55) scaleY(0.55);
+}
+
+@media (min-width: 768px) {
+	.page1D6 {
+		transform: scaleX(-1);
+	}
+}
+
 #hand {
-	width: 350px; 
-	height: 400px; 
 	box-sizing: border-box;
 	position: relative; 	
 	pointer-events: none;
+	max-width: 9.1rem;
+	transform: translateX(50%);
+    	position: relative;
+    	z-index: 2;
 	
 }
+
+.handshadow {
+    transform: translateX(50%);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    opacity: 0.05;
+    transform-origin: 50% 20%;
+    max-width: 9.1rem;
+}
+
 
 
 @-webkit-keyframes k-rotateHand {
