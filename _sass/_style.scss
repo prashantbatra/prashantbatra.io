@@ -83,18 +83,18 @@ body {
 
 .page1D6 {
     transform-origin: 20% 0px;
-    transform: scaleX(-0.55) scaleY(0.55);
+    transform: scale(0.55);
 }
 
 @media (min-width: 768px) {
 	.page1D6 {
-		transform: scaleX(-1);
+		transform: scale(1);
 	}
 }
 
 .hand {
 	max-width: 17.1rem;
-	transform: translateX(50%);
+	transform: scaleX(-1) translateX(50%);
     	position: relative;
     	z-index: 2;
 }
@@ -102,7 +102,7 @@ body {
 
 
 .handshadow {
-    transform: translateX(50%);
+    transform: scaleX(-1) translateX(50%);
     position: absolute;
     top: 0px;
     right: 0px;
