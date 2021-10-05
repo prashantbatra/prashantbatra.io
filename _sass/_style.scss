@@ -93,15 +93,13 @@ body {
 }
 
 #hand {
-	box-sizing: border-box;
-	position: relative; 	
-	pointer-events: none;
-	max-width: 9.1rem;
+	max-width: 17.1rem;
 	transform: translateX(50%);
     	position: relative;
     	z-index: 2;
-	
 }
+	
+
 
 .handshadow {
     transform: translateX(50%);
@@ -111,7 +109,7 @@ body {
     z-index: 1;
     opacity: 0.05;
     transform-origin: 50% 20%;
-    max-width: 9.1rem;
+    max-width: 17.1rem;
 }
 
 
