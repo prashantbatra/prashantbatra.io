@@ -78,10 +78,10 @@ var lastScrollTop = 0;
 $( window ).scroll(function() {
   var st = $(this).scrollTop();
    if (st > lastScrollTop){
-	   $("ani").animate({transform: translate(0px, 0px); left:100vw; top:100vh;});
+	   $("ani").animate({left:100vw; top:100vh;});
            
    } else {
-      $("ani").animate({transform: rotate(-40deg);left: 90%;top: 80%;});
+      $("ani").animate({left: 90%;top: 80%;});
    }
    lastScrollTop = st;
 });
