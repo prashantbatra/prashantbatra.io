@@ -74,8 +74,9 @@
 	</div>
 	<script>
 		var lastScrollTop = 0;
-		$( window ).scroll(function() {
+		$( window ).scroll(function() {			
 			var st = $(this).scrollTop();
+			console.log("Scroll top is : " + st);
    			if (st > lastScrollTop){
 	   			document.getElementById('ani').animate(
 					[
