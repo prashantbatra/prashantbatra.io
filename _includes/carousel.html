@@ -90,17 +90,19 @@
 	   			);   
            
    			} else {
-	   			document.getElementById('ani').animate(
-		   			[
-			   			{ transform: 'rotate(-40deg)', left:'90%', top:'80%' }
-		   			], 
-		   			{
-			   			fill: 'forwards',
-			   			easing: 'ease-out',
-			   			duration: 500
-		   			}
-	   			);   
-   			}
+				if (st == 0){
+	   				document.getElementById('ani').animate(
+		   				[
+			   				{ transform: 'rotate(-40deg)', left:'90%', top:'80%' }
+		   				], 
+		   				{
+			   				fill: 'forwards',
+			   				easing: 'ease-out',
+			   				duration: 500
+		   				}
+	   				);   
+   				}
+			}
    			lastScrollTop = st;
 		});
 	</script>
