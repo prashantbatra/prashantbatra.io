@@ -76,12 +76,27 @@
 	<script>
 var lastScrollTop = 0;
 $( window ).scroll(function() {
+ console.log("Scrolling");
   var st = $(this).scrollTop();
    if (st > lastScrollTop){
-	   $("ani").animate({left:100vw; top:100vh;});
+	   document.getElementById('ani').animate(
+		   [
+			   { transform: 'translate(0px,0px)', left:'100vw', top:'100vh' }
+		   ], 
+		   {
+			   fill: 'forwards'
+		   }
+	   );   
            
    } else {
-      $("ani").animate({left: 90%;top: 80%;});
+	   document.getElementById('ani').animate(
+		   [
+			   { transform: 'rotate(-40deg)', left:'90%', top:'80%' }
+		   ], 
+		   {
+			   fill: 'forwards'
+		   }
+	   );   
    }
    lastScrollTop = st;
 });
