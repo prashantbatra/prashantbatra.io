@@ -116,42 +116,62 @@ body {
 
 @-webkit-keyframes k-rotateHand {
   0% {
-	  opacity: 0;
+	  left:100vw;
+	  top:100vh;
+	  transform: rotate(-40deg);
+	  
     }
-   25%,50%,75% {
-	  opacity: 1;
+   25% {
+	  left:82%;
+	  top:145%;
+	  transform: rotate(-40deg);
     }
+   50% {
+	  left:82%;
+	  top:90%%;
+	  transform: rotate(-40deg);
+    }
+    75% {
+	  left:82%;
+	  top:68%;
+	  transform: rotate(-40deg);
+    }	
    100% {
-
-	   transform: translate(0px,0px);
-	   -webkit-transform: translate(0px,0px);
-	   opacity: 1;
+	  left:90%;
+	  top:80%;
+	  transform: rotate(-40deg);
     }
 }
 
 
 @keyframes k-rotateHand {
   0% {
-	  transform: translateY(2rem) rotate(4deg);
-	  -webkit-transform: translateY(2rem) rotate(4deg);
-	  opacity: 0;
-    }
-   25%,50%,75% {
- 
-	  transform: translateY(2rem) rotate(4deg);
-	  -webkit-transform: translateY(2rem) rotate(4deg);
-	  opacity: 1;
-    }
-   100% {
+	  left:100vw;
+	  top:100vh;
+	  transform: rotate(-40deg);
 	  
-	   transform: translate(0px,0px);
-	   -webkit-transform: translate(0px,0px);
-	   opacity: 1;
+    }
+   25% {
+	  left:82%;
+	  top:145%;
+	  transform: rotate(-40deg);
+    }
+   50% {
+	  left:82%;
+	  top:90%%;
+	  transform: rotate(-40deg);
+    }
+    75% {
+	  left:82%;
+	  top:68%;
+	  transform: rotate(-40deg);
+    }	
+   100% {
+	  left:90%;
+	  top:80%;
+	  transform: rotate(-40deg);
     }
 }
-
-
-
 
 .comparisonSection {
   position: relative;
