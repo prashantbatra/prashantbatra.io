@@ -76,8 +76,9 @@
 		var lastScrollTop = 0;
 		$( window ).scroll(function() {			
 			var st = $(this).scrollTop();
-			console.log("Scroll top is : " + st);
+			
    			if (st > lastScrollTop){
+				console.log("Scroll top is : " + st + " . hide it");
 	   			document.getElementById('ani').animate(
 					[
 			   			{ transform: 'translate(0px,0px)', left:'100vw', top:'100vh' }
@@ -91,6 +92,7 @@
            
    			} else {
 				if (st == 0){
+					console.log("Scroll top is : " + st + " . bring  it back");
 	   				document.getElementById('ani').animate(
 		   				[
 			   				{ transform: 'rotate(-40deg)', left:'90%', top:'80%' }
