@@ -4,7 +4,7 @@
     detail: Cognitec Systems GmbH
     i18n: cognitec_systems_gmbh_a
   desc:
-    detail: Leading the Full-stack development of multiple projects with well-documented and reliable RESTful backend and interactive front-end that provides security assurance to many customers using facial recognition technology.
+    detail: Leading the Full-stack development of multiple projects with well-documented and reliable RESTful back end and interactive front-end that provides security assurance to many customers using facial recognition technology.
     resp: <ul style="font-size:16px"><li><b>Provide Architectural and Design direction</b><ul style="font-size:16px"><li>Designing the solutions</li><li>Creating Proof of Concept (POC) based on the proposed design and architecture</li><li>Presenting the design and POC to Project Manager and Project Owners</li><li>Document solutions using flowcharts, layouts, diagrams, charts etc.</li></ul></li><li><b>Lead and Develop</b><ul style="font-size:16px"><li>Plan, prioritize and divide work using JIRA</li><li>Organize Sprint meetings with team</li><li>Contribute to the development</li></ul></li><li><b>Organize Brainstorming sessions</b><ul style="font-size:16px"><li>Collaborate with team to brainstorm on various topics.</li></ul></li><li><b>Automation</b><ul style="font-size:16px"><li>Automate repetitive tasks</li><li>Create automation software for end-to-end testing of products</li></ul></li><li><b>Deliver in timely manner</b><ul style="font-size:16px"><li>Fulfilling the commitments by timely delivering the deliverables.</li><li>Announcing new features to teams in different countries via video conferencing</li></ul></li></ul>
     technologies: C++, WebRTC, Python, SWIG, Docker, Django REST, Apache, Postgres, Oracle, SQL, Sqlite, Git, JIRA, Android app, Angular (HTML5, TypeScript, CSS, Node, NPM)
     i18n: cognitec_systems_gmbh_a_desc
@@ -22,7 +22,7 @@
     i18n: tech_mahindra_gmbh_b
   desc:
     detail: Worked full time onsite at T-Mobile (Deutsche Telekom) as Senior Technical Associate
-    resp: <ul style="font-size:16px"><li><b>Design & Devepment</b><ul style="font-size:16px"><li>Create designs based on the feature request documents</li><li>Present the proposed solution for approval</li><li>Develop the feature</li></ul></li><li><b>Production release</b><ul style="font-size:16px"><li>Contributed to quaterly production release activities</li></ul></li><li><b>Automation</b><ul style="font-size:16px"><li>Developed automated Test Suite for testing team</li><li>Develped autmated build process for build team</li></ul></li><li><b>Maintainance</b><ul style="font-size:16px"><li>Fix issues within defined SLAs.</li></ul></li></ul>
+    resp: <ul style="font-size:16px"><li><b>Design & Development</b><ul style="font-size:16px"><li>Create designs based on the feature request documents</li><li>Present the proposed solution for approval</li><li>Develop the feature</li></ul></li><li><b>Production release</b><ul style="font-size:16px"><li>Contributed to quarterly production release activities</li></ul></li><li><b>Automation</b><ul style="font-size:16px"><li>Developed automated Test Suite for testing team</li><li>Developed automated build process for build team</li></ul></li><li><b>Maintainance</b><ul style="font-size:16px"><li>Fix issues within defined SLAs.</li></ul></li></ul>
     technologies: C++, Clearcase, Perl, Java
     i18n: tech_mahindra_gmbh_b_desc
   date:
@@ -45,7 +45,7 @@
     detail: September 2007 - April 2009
     i18n: appulse_technologies_c_date
   job:
-    detail: Senior Software Engineer
+    detail: Senior Software Enginner
     i18n: appulse_technologies_c_job
   icon: fa-plus-square
   
@@ -54,7 +54,7 @@
     i18n: mindfire_solutions_d
   desc:
     detail: Worked as Software Developer for mobile developments where I contributed for many white papers and developed in-house algorithms .
-    resp: <ul style="font-size:16px"><li><b>Devepment</b><ul style="font-size:16px"><li>Discuss the features with team lead</li><li>Develop the feature</li><li>Perform Unit tests</li><li>Perform System tests</li><li>Prepare releases</li></ul></li><li><b>Algorithms development</b><ul style="font-size:16px"><li>Highly optimzed the size of a game by developing an algo to use single image instead to multiple images </li></ul></li></ul>
+    resp: <ul style="font-size:16px"><li><b>Development</b><ul style="font-size:16px"><li>Discuss the features with team lead</li><li>Develop the feature</li><li>Perform Unit tests</li><li>Perform System tests</li><li>Prepare releases</li></ul></li><li><b>Algorithms development</b><ul style="font-size:16px"><li>Highly optimized the size of a game by developing an algorithm to use single image instead to multiple images </li></ul></li></ul>
     technologies: C++, Java
     i18n: mindfire_solutions_d_desc
   date:
