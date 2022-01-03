@@ -74,16 +74,6 @@
 	</div>
 	<script>
 		var lastScrollTop = 0;
-		document.getElementById('ani').animate(
-			[
-				{ transform: 'translate(0px,0px)', left:'100vw', top:'100vh' }
-			],
-			{
-				fill: 'forwards',
-				easing: 'ease-in',
-				duration: 5
-			}
-		);  
 		$( window ).scroll(function() {			
 			var st = $(this).scrollTop();
 			
