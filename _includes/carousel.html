@@ -76,6 +76,7 @@
 		var lastScrollTop = 0;
 		$( window ).scroll(function() {			
 			var st = $(this).scrollTop();
+			console.log("lastScrollTOp : " + lastScrollTop);
 			
    			if (st > lastScrollTop){
 				console.log("Scroll top is : " + st + " . hide it");
