@@ -77,6 +77,40 @@
 		$( window ).scroll(function() {			
 			var st = $(this).scrollTop();
 			
+   			if (st != 0){
+				console.log("Scroll top is : " + st + " . hide it");
+	   			document.getElementById('ani').animate(
+					[
+			   			{ transform: 'translate(0px,0px)', left:'100vw', top:'100vh' }
+		   			], 
+		   			{
+			   			fill: 'forwards',
+			   			easing: 'ease-in',
+			   			duration: 500
+		   			}
+	   			);   
+           
+   			} else {
+				console.log("Scroll top is : " + st + " . bring  it back");
+				document.getElementById('ani').animate(
+					[
+						{ transform: 'rotate(-40deg)', left:'90%', top:'80%' }
+					],
+					{
+			   				fill: 'forwards',
+			   				easing: 'ease-out',
+			   				duration: 500
+					}
+				);
+			}
+   			lastScrollTop = st;
+		});
+	</script>
+	<!--<script>
+		var lastScrollTop = 0;
+		$( window ).scroll(function() {			
+			var st = $(this).scrollTop();
+			
    			if (st > lastScrollTop){
 				console.log("Scroll top is : " + st + " . hide it");
 	   			document.getElementById('ani').animate(
@@ -107,7 +141,7 @@
 			}
    			lastScrollTop = st;
 		});
-	</script>
+	</script>-->
 </div>		
 			
 					
