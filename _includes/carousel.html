@@ -82,7 +82,7 @@
 				console.log("Scroll top is : " + st + " . hide it");
 	   			document.getElementById('ani').animate(
 					[
-			   			{ left:'100vw', top:'100vh', opacity:'0' }
+			   			{ transform: 'translate(0px,0px)', left:'100vw', top:'100vh', opacity:'0' }
 		   			], 
 		   			{
 			   			fill: 'forwards',
@@ -95,7 +95,7 @@
 				console.log("Scroll top is : " + st + " . bring  it back");
 				document.getElementById('ani').animate(
 					[
-						{ transform: 'rotate(-40deg)', left:'90%', top:'80%', opacity:'1' }
+						{ left:'90%', top:'80%', opacity:'1' }
 					],
 					{
 			   				fill: 'forwards',
