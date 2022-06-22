@@ -74,6 +74,8 @@
 	</div>
 	<script>
 		var lastScrollTop = 0;
+		var lastTranslationX = 0;
+		var lastTranslationY = 0;
 		$( window ).scroll(function() {		
 			console.log("Last scroll top is : " + lastScrollTop + " . bring  it back");
 			var st = $(this).scrollTop();
@@ -81,6 +83,8 @@
    			if (lastScrollTop <= 0 && st > 0){
 				console.log("Scroll top is : " + st + " . hide it");
 				var rect = document.getElementById('ani').getBoundingClientRect();
+				lastTranslationX = rect.x;
+				lastTranslationY = rect.y;
 				console.log("X top is : " + rect.x + " y is  " + rect.y);
                 		document.getElementById('ani').animate(
 					[
@@ -97,7 +101,8 @@
 				console.log("Scroll top is : " + st + " . bring  it back");
 				document.getElementById('ani').animate(
 					[
-						{ transform: 'rotate(-40deg)', left:'90%', top:'80%', opacity:'1' }
+						{ transform: 'rotate(-40deg)', left:'90%', top:'80%', opacity:'1' },
+						{ transform: 'translate(lastTranslationX,lastTranslationY)', left:'90%', top:'80%' }
 					],
 					{
 			   				fill: 'forwards',
