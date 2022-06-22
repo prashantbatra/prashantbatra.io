@@ -80,7 +80,9 @@
 			
    			if (lastScrollTop <= 0 && st > 0){
 				console.log("Scroll top is : " + st + " . hide it");
-	   			document.getElementById('ani').animate(
+				var rect = document.getElementById('ani').getBoundingClientRect();
+				console.log("X top is : " + rect.x + " y is  " + rect.y);
+                		document.getElementById('ani').animate(
 					[
 			   			{ transform: 'translate(0px,0px)', left:'100vw', top:'100vh', opacity:'0' }
 		   			], 
