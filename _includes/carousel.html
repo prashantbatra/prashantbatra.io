@@ -78,7 +78,7 @@
 			console.log("Last scroll top is : " + lastScrollTop + " . bring  it back");
 			var st = $(this).scrollTop();
 			
-   			if (st != 0){
+   			if (lastScrollTop == 0 && st != 0){
 				console.log("Scroll top is : " + st + " . hide it");
 	   			document.getElementById('ani').animate(
 					[
@@ -91,7 +91,7 @@
 		   			}
 	   			);
            
-   			} else {
+   			} else if (lastScrollTop !=0 && st ==0) {
 				console.log("Scroll top is : " + st + " . bring  it back");
 				document.getElementById('ani').animate(
 					[
@@ -103,7 +103,9 @@
 			   				duration: 500
 					}
 				);
-			}
+			} else {
+				console.log("Scroll top is : " + st + " . bring  it back");
+			{
    			lastScrollTop = st;
 		});
 	</script>
