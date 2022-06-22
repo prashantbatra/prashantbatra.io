@@ -3,16 +3,16 @@
     "title": "Batra's Blog"
   },
   "nav":{
-    "home": "HomeE",
-    "about_me": "AboutE",
-    "skills": "Skills",
-    "projects": "Projects",
-    "career": "Career",
+    "home": "Über",
+    "about_me": "Über",
+    "skills": "Fähigkeiten",
+    "projects": "Projekte",
+    "career": "Karriere",
     "blog": "Blog",
     "link": "Link"
   },
   "about_me":{
-    "about_me": "About Me",
+    "about_me": "Über mich",
     "des": "I am a Full Stack engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel."
   },
   "skills":{
