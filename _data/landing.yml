@@ -19,14 +19,14 @@
   css: team
   
 - id: blog
-  i18n: nav1.blog
+  i18n: nav.blog
   name: Recommendations
   tpl: blog.html
   page: blog/
   css: testimonials navy-section
 
 - id: links
-  i18n: nav1.link
+  i18n: nav.link
   name: Contact
   tpl: links.html
   css: contact
