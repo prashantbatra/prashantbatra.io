@@ -584,7 +584,7 @@ body {
 	}
 }
 
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
 
 	@-webkit-keyframes k-rotateFirstStatic{
 	  0% {
@@ -620,7 +620,7 @@ body {
 	    opacity: 1;    
 	    }
 	}
-}*/
+}
 @-webkit-keyframes k-rotateFirstDynamic {
   0% {
     transform: translateY(4rem) rotate(6deg);
