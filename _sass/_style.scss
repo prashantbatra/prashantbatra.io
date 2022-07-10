@@ -546,6 +546,45 @@ body {
 
 }
 
+@media screen and (max-width: 768px) {
+	
+	@-webkit-keyframes k-rotateFirstStatic{
+	  0% {
+	    transform: translateX(-18.5%);
+	    -webkit-transform: translateX(-18.5%);
+	    opacity: 0;
+	    }
+	  12.5%,25%,37.5%,50%,62.5%,75% {
+	    transform: translateX(-18.5%);
+	    -webkit-transform: translateX(-18.5%);
+	    opacity: 1;
+	    }
+	  100% {
+	    transform: translate(-2px,0px);
+	    -webkit-transform: translate(-2px,0px);
+	    opacity: 1;    
+	    }  
+	}
+	@keyframes k-rotateFirstStatic {
+	  0% {
+	    transform: translateX(-18.5%);
+	    -webkit-transform: translateX(-18.5%);
+	    opacity: 0;
+	    }
+	  12.5%,25%,37.5%,50%,62.5%,75% {
+	    transform: translateX(-18.5%);
+	    -webkit-transform: translateX(-18.5%);
+	    opacity: 1;
+	    }
+	  100% {
+	    transform: translate(-2px,0px);
+	    -webkit-transform: translate(-2px,0px);
+	    opacity: 1;    
+	    }
+	}
+}
+
+
 @-webkit-keyframes k-rotateFirstStatic{
   0% {
     transform: translateX(-23.5%);
