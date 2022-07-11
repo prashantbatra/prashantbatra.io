@@ -115,94 +115,6 @@ body {
 
 
 
-@-webkit-keyframes k-rotateHand {
-  0% {
-	  left:100vw;
-	  top:100vh;
-	  transform: rotate(-40deg);
-	  
-    }
-   6.3% {
-	  left:98%;
-	  top:106%;
-	  transform: rotate(-40deg);
-    }
-   13.3%,16.6% {
-	  left:82%;
-	  top:90%;
-	  transform: rotate(-40deg);
-    }
-    25% {
-	  left:82%;
-	  top:68%;
-	  transform: rotate(-40deg);
-    }
-   33.3% {
-	  left:90%;
-	  top:80%;
-	  transform: rotate(-40deg);
-    }
-    56.3% {
-	  left:74%;
-	  top:3%;
-	  transform: rotate(-40deg);
-    }
-   81.3% {
-	  left:93%;
-	  top:3%;
-	  transform: rotate(-40deg);
-    }	
-   100% {
-	  left:90%;
-	  top:80%;
-	  transform: rotate(-40deg);
-    }
-}
-
-
-@keyframes k-rotateHand {
-  0% {
-	  left:100vw;
-	  top:100vh;
-	  transform: rotate(-40deg);
-	  
-    }
-   6.3% {
-	  left:98%;
-	  top:106%;
-	  transform: rotate(-40deg);
-    }
-   13.3%,16.6% {
-	  left:82%;
-	  top:90%;
-	  transform: rotate(-40deg);
-    }
-    25% {
-	  left:82%;
-	  top:68%;
-	  transform: rotate(-40deg);
-    }
-   33.3% {
-	  left:90%;
-	  top:80%;
-	  transform: rotate(-40deg);
-    }
-    56.3% {
-	  left:74%;
-	  top:3%;
-	  transform: rotate(-40deg);
-    }
-   81.3% {
-	  left:93%;
-	  top:3%;
-	  transform: rotate(-40deg);
-    }	
-   100% {
-	  left:90%;
-	  top:80%;
-	  transform: rotate(-40deg);
-    }
-}
 
 .comparisonSection {
   position: relative;
@@ -548,6 +460,96 @@ body {
 
 @media (max-width: 767px) {
 	
+	@-webkit-keyframes k-rotateHand {
+	  0% {
+		  left:100vw;
+		  top:100vh;
+		  transform: rotate(-40deg);
+
+	    }
+	   6.3% {
+		  left:98%;
+		  top:106%;
+		  transform: rotate(-40deg);
+	    }
+	   13.3%,16.6% {
+		  left:82%;
+		  top:90%;
+		  transform: rotate(-40deg);
+	    }
+	    25% {
+		  left:82%;
+		  top:68%;
+		  transform: rotate(-40deg);
+	    }
+	   33.3% {
+		  left:90%;
+		  top:80%;
+		  transform: rotate(-40deg);
+	    }
+	    56.3% {
+		  left:74%;
+		  top:5%;
+		  transform: rotate(-40deg);
+	    }
+	   81.3% {
+		  left:93%;
+		  top:5%;
+		  transform: rotate(-40deg);
+	    }	
+	   100% {
+		  left:90%;
+		  top:80%;
+		  transform: rotate(-40deg);
+	    }
+	}
+
+
+	@keyframes k-rotateHand {
+	  0% {
+		  left:100vw;
+		  top:100vh;
+		  transform: rotate(-40deg);
+
+	    }
+	   6.3% {
+		  left:98%;
+		  top:106%;
+		  transform: rotate(-40deg);
+	    }
+	   13.3%,16.6% {
+		  left:82%;
+		  top:90%;
+		  transform: rotate(-40deg);
+	    }
+	    25% {
+		  left:82%;
+		  top:68%;
+		  transform: rotate(-40deg);
+	    }
+	   33.3% {
+		  left:90%;
+		  top:80%;
+		  transform: rotate(-40deg);
+	    }
+	    56.3% {
+		  left:74%;
+		  top:5%;
+		  transform: rotate(-40deg);
+	    }
+	   81.3% {
+		  left:93%;
+		  top:5%;
+		  transform: rotate(-40deg);
+	    }	
+	   100% {
+		  left:90%;
+		  top:80%;
+		  transform: rotate(-40deg);
+	    }
+	}
+	
+	
 	@-webkit-keyframes k-rotateFirstStatic{
 	  0% {
 	    transform: translateX(-23.5%);
@@ -585,6 +587,96 @@ body {
 }
 
 @media (min-width: 768px) {
+	
+	@-webkit-keyframes k-rotateHand {
+	  0% {
+		  left:100vw;
+		  top:100vh;
+		  transform: rotate(-40deg);
+
+	    }
+	   6.3% {
+		  left:98%;
+		  top:106%;
+		  transform: rotate(-40deg);
+	    }
+	   13.3%,16.6% {
+		  left:82%;
+		  top:90%;
+		  transform: rotate(-40deg);
+	    }
+	    25% {
+		  left:82%;
+		  top:68%;
+		  transform: rotate(-40deg);
+	    }
+	   33.3% {
+		  left:90%;
+		  top:80%;
+		  transform: rotate(-40deg);
+	    }
+	    56.3% {
+		  left:74%;
+		  top:3%;
+		  transform: rotate(-40deg);
+	    }
+	   81.3% {
+		  left:93%;
+		  top:3%;
+		  transform: rotate(-40deg);
+	    }	
+	   100% {
+		  left:90%;
+		  top:80%;
+		  transform: rotate(-40deg);
+	    }
+	}
+
+
+	@keyframes k-rotateHand {
+	  0% {
+		  left:100vw;
+		  top:100vh;
+		  transform: rotate(-40deg);
+
+	    }
+	   6.3% {
+		  left:98%;
+		  top:106%;
+		  transform: rotate(-40deg);
+	    }
+	   13.3%,16.6% {
+		  left:82%;
+		  top:90%;
+		  transform: rotate(-40deg);
+	    }
+	    25% {
+		  left:82%;
+		  top:68%;
+		  transform: rotate(-40deg);
+	    }
+	   33.3% {
+		  left:90%;
+		  top:80%;
+		  transform: rotate(-40deg);
+	    }
+	    56.3% {
+		  left:74%;
+		  top:3%;
+		  transform: rotate(-40deg);
+	    }
+	   81.3% {
+		  left:93%;
+		  top:3%;
+		  transform: rotate(-40deg);
+	    }	
+	   100% {
+		  left:90%;
+		  top:80%;
+		  transform: rotate(-40deg);
+	    }
+	}
+
 
 	@-webkit-keyframes k-rotateFirstStatic{
 	  0% {
